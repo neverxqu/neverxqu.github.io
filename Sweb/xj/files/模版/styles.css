@@ -772,3 +772,36 @@
   white-space:nowrap;
   text-transform:none;
 }
+#u27_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:20px;
+  height:20px;
+}
+#u27 {
+  border-width:0px;
+  position:absolute;
+  left:2812px;
+  top:699px;
+  width:20px;
+  height:20px;
+  display:flex;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:20px;
+}
+#u27 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u27_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
