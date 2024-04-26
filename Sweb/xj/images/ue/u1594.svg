@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="394px" height="132px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="363px" height="131px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient cx="11.9640718562891" cy="65.1856287425177" r="505.589545229107" gradientTransform="matrix(0 -1 0.285370339389022 0 -6.63797314124995 77.1497005988068 )" gradientUnits="userSpaceOnUse" id="RadialGradient1301">
-      <stop id="Stop1302" stop-color="#ffffff" stop-opacity="0" offset="0" />
-      <stop id="Stop1303" stop-color="#000000" stop-opacity="0.4" offset="1" />
-    </radialGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="7777" y1="2168.28571428571" x2="7982.82608695652" y2="2168.28571428571" id="LinearGradient4192">
+      <stop id="Stop4193" stop-color="#d7d7d7" stop-opacity="0" offset="0" />
+      <stop id="Stop4194" stop-color="#d7d7d7" stop-opacity="0.988235294117647" offset="1" />
+    </linearGradient>
   </defs>
-  <g transform="matrix(1 0 0 1 -7746 -2102 )">
-    <path d="M 314 131.428571428571  L 1 132  L 1 0  L 379 0  C 387.4 0  394 6.59999999999991  394 15  L 394 65  L 314 65  L 314 131.428571428571  Z " fill-rule="nonzero" fill="url(#RadialGradient1301)" stroke="none" transform="matrix(1 0 0 1 7746 2102 )" />
+  <g transform="matrix(1 0 0 1 -7777 -2102 )">
+    <path d="M 7777 2117  A 15 15 0 0 1 7792 2102 L 8125 2102  A 15 15 0 0 1 8140 2117 L 8140 2218  A 15 15 0 0 1 8125 2233 L 7792 2233  A 15 15 0 0 1 7777 2218 L 7777 2117  Z " fill-rule="nonzero" fill="url(#LinearGradient4192)" stroke="none" />
   </g>
 </svg>
