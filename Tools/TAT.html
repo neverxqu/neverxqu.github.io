@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拼接工具</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+        }
+        #leftPanel {
+            flex: 1;
+            margin-right: 20px;
+        }
+        #rightPanel {
+            flex: 1;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        input[type="number"], input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        #inputContainer input {
+            margin-bottom: 10px;
+            width: 95%;
+        }
+        #resultContainer {
+            display: flex;
+            align-items: center;
+            margin-top: 36px;
+        }
+        #result {
+            flex-grow: 1;
+            padding: 17px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            word-wrap: break-word;
+            height: 100%;
+        }
+        #copyButton {
+            margin-left: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #copyButton:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="leftPanel">
+        <h1>数据</h1>
+
+        <!-- 输入拼接符 -->
+        <label for="separator">拼接符:</label>
+        <input type="text" id="separator" placeholder="例如: , - 空格" oninput="concatenateStrings()">
+
+        <!-- 设置拼接数量 -->
+        <label for="count">设置拼接的数量:</label>
+        <input type="number" id="count" min="1" onchange="generateInputFields()">
+
+        <!-- 显示动态生成的输入框 -->
+        <div id="inputContainer"></div>
+    </div>
+
+    <div id="rightPanel">
+        <!-- 实时显示拼接结果 -->
+        <h1>结果:</h1>
+        <div id="resultContainer">
+            <p id="result"></p>
+            <button id="copyButton" onclick="copyToClipboard()">复制</button>
+        </div>
+    </div>
+
+    <script>
+        function generateInputFields() {
+            const count = document.getElementById('count').value;
+            const container = document.getElementById('inputContainer');
+            container.innerHTML = ''; // 清空以前的输入框
+
+            for (let i = 0; i < count; i++) {
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.placeholder = `第 ${i + 1} 个`;
+                input.oninput = concatenateStrings;
+                container.appendChild(input);
+            }
+
+            concatenateStrings(); // 初始化显示结果
+        }
+
+        function concatenateStrings() {
+            const inputs = document.getElementById('inputContainer').getElementsByTagName('input');
+            const separator = document.getElementById('separator').value;
+            let result = '';
+
+            for (let i = 0; i < inputs.length; i++) {
+                result += inputs[i].value;
+                if (i < inputs.length - 1) {
+                    result += separator;
+                }
+            }
+
+            document.getElementById('result').textContent = result;
+        }
+
+        function copyToClipboard() {
+            const resultText = document.getElementById('result').textContent;
+            navigator.clipboard.writeText(resultText).then(() => {
+                alert('拼接结果已复制到剪贴板！');
+            }, () => {
+                alert('复制失败，请手动复制。');
+            });
+        }
+    </script>
+
+</body>
+</html>
