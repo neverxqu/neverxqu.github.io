@@ -73,6 +73,19 @@
         #copyButton:hover {
             background-color: #45a049;
         }
+        #clearButton {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #3c74be;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #clearButton:hover {
+            background-color: #3c74be;
+        }
     </style>
 </head>
 <body>
@@ -90,6 +103,9 @@
 
         <!-- 显示动态生成的输入框 -->
         <div id="inputContainer"></div>
+
+        <!-- Clear button to reset input fields -->
+        <button id="clearButton" onclick="clearInputFields()">清空填写数据</button>
     </div>
 
     <div id="rightPanel">
@@ -141,6 +157,14 @@
                 alert('复制失败，请手动复制。');
             });
         }
+        function clearInputFields() {
+            const inputs = document.getElementById('inputContainer').getElementsByTagName('input');
+            for (let i = 0; i < inputs.length; i++) {
+              inputs[i].value = ''; // Clear each input field
+             }
+             document.getElementById('result').textContent = ''; // Clear the result display
+        }
+
     </script>
 
 </body>
