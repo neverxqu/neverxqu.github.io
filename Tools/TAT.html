@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             padding: 20px;
-            max-width: 1200px;
+            max-width: 100%;
             background-color: #f4f4f4;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@
             margin-right: 20px;
         }
         #rightPanel {
-            flex: 1;
+            flex: 1.5;
         }
         h1, h2 {
             color: #333;
@@ -89,6 +89,17 @@
         #clearButton:hover {
             background-color: #3c74be;
         }
+        /* 显示复制成功提示的元素 */
+        #copySuccess {
+            display: none;
+            position: absolute; /* 改为绝对定位以便控制位置 */
+            background-color: rgba(0, 0, 0, 0.5); /* 半透明黑底 */
+            color: white; /* 白色字体 */
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px; /* 调整字体大小 */
+            z-index: 100; /* 保证提示在最上层显示 */
+        }
     </style>
 </head>
 <body>
@@ -114,7 +125,9 @@
     <div id="rightPanel">
         <!-- 实时显示拼接结果 -->
         <h1>结果:</h1>
+
         <div id="resultContainer">
+            <span id="copySuccess">√ 复制成功 去粘贴吧</span>
             <p id="result"></p>
             <button id="copyButton" onclick="copyToClipboard()">复制</button>
         </div>
@@ -155,11 +168,17 @@
         function copyToClipboard() {
             const resultText = document.getElementById('result').textContent;
             navigator.clipboard.writeText(resultText).then(() => {
-                alert('拼接结果已复制到剪贴板！');
-            }, () => {
-                alert('复制失败，请手动复制。');
+                // 显示复制成功提示
+                const copySuccess = document.getElementById('copySuccess');
+                copySuccess.style.display = 'inline'; // 改为 inline 使其在标题旁显示
+
+                // 短时间后隐藏提示
+                setTimeout(() => {
+                    copySuccess.style.display = 'none';
+                }, 2000); // 2秒后隐藏
             });
         }
+
         function clearInputFields() {
             const inputs = document.getElementById('inputContainer').getElementsByTagName('input');
             for (let i = 0; i < inputs.length; i++) {
