@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="118px" height="16px" viewBox="5418 1542  118 16" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(0.121869343405139 -0.992546151641339 0.992546151641321 0.121869343405145 3271.07507112601 6797.27779026164 )">
-    <path d="M 5468 1498  C 5488.24925179591 1563.79468136727  5484.97414635744 1627.65741069114  5458.17468368457 1689.5881879716  " stroke-width="5" stroke="#d9001b" fill="none" />
-    <path d="M 5446.49702188462 1679.29060117209  L 5451 1705  L 5474.2408745399 1693.12095329495  L 5446.49702188462 1679.29060117209  Z " fill-rule="nonzero" fill="#d9001b" stroke="none" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="238px" height="12px" viewBox="2184 5884 238 12" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(-0.9638804208296249 -0.2663353794397527 0.26633537943972885 -0.9638804208295835 2954.101224270623 12180.626057536 )">
+    <path d="M 2189 5921  L 2417 5858  " stroke-width="5" stroke-dasharray="0" stroke="rgba(217, 0, 27, 1)" fill="none" class="stroke" />
   </g>
 </svg>

@@ -1,13 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="120px" height="120px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient cx="1773.15436241611" cy="917.449664429533" r="120.134228187922" gradientTransform="matrix(1.89266355536541E-15 -0.999999999999998 1 1.89266355536542E-15 855.704697986571 2690.60402684563 )" gradientUnits="userSpaceOnUse" id="RadialGradient632">
-      <stop id="Stop633" stop-color="#ffffff" offset="0" />
-      <stop id="Stop634" stop-color="#ffffff" stop-opacity="0" offset="1" />
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <radialGradient cx="61.154362416106665" cy="103.4496644295325" r="120.13422818792208" gradientTransform="matrix(3.548744166310144E-15 -0.9999999999999974 1 3.548744166310153E-15 -42.29530201342605 164.60402684563866 )" gradientUnits="userSpaceOnUse" id="RadialGradient210">
+      <stop id="Stop211" stop-color="#ffffff" offset="0" />
+      <stop id="Stop212" stop-color="#ffffff" stop-opacity="0" offset="1" />
     </radialGradient>
+    <mask fill="white" id="Clip213">
+      <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " fill-rule="evenodd" />
+    </mask>
   </defs>
   <g transform="matrix(1 0 0 1 -1712 -814 )">
-    <path d="M 1772 816  C 1804.48 816  1830 841.52  1830 874  C 1830 906.48  1804.48 932  1772 932  C 1739.52 932  1714 906.48  1714 874  C 1714 841.52  1739.52 816  1772 816  Z " fill-rule="nonzero" fill="#d7d7d7" stroke="none" />
-    <path d="M 1772 815.5  C 1804.76 815.5  1830.5 841.24  1830.5 874  C 1830.5 906.76  1804.76 932.5  1772 932.5  C 1739.24 932.5  1713.5 906.76  1713.5 874  C 1713.5 841.24  1739.24 815.5  1772 815.5  Z " stroke-width="3" stroke="url(#RadialGradient632)" fill="none" />
+    <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " fill-rule="nonzero" fill="rgba(215, 215, 215, 1)" stroke="none" transform="matrix(1 0 0 1 1712 814 )" class="fill" />
+    <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " stroke-width="6" stroke-dasharray="0" stroke="url(#RadialGradient210)" fill="none" transform="matrix(1 0 0 1 1712 814 )" class="stroke" mask="url(#Clip213)" />
   </g>
 </svg>

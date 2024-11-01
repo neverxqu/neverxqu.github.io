@@ -7,8 +7,11 @@
     <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
     <link href="data/styles.css" type="text/css" rel="stylesheet"/>
     <link href="files/广播动画/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
     <link href="" type="text/css" rel="stylesheet"/>
-    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/jquery-3.7.1.min.js"></script>
     <script src="resources/scripts/axure/axQuery.js"></script>
     <script src="resources/scripts/axure/globals.js"></script>
     <script src="resources/scripts/axutils.js"></script>
@@ -50,21 +53,21 @@
     <div id="base" class="">
 
       <!-- 家园界面 (组合) -->
-      <div id="u60" class="ax_default" data-label="家园界面" data-left="0" data-top="0" data-width="1920" data-height="1097">
+      <div id="u60" class="ax_default" data-label="家园界面" data-left="0" data-top="0" data-width="1920" data-height="1097" layer-opacity="1">
 
         <!-- 底图 (组合) -->
-        <div id="u61" class="ax_default" data-label="底图" data-left="0" data-top="0" data-width="1920" data-height="1097">
+        <div id="u61" class="ax_default" data-label="底图" data-left="0" data-top="0" data-width="1920" data-height="1097" layer-opacity="1">
 
           <!-- 背景图 (矩形) -->
-          <div id="u62" class="ax_default box_3" data-label="背景图">
+          <div id="u62" class="ax_default box_3 transition" data-label="背景图">
             <div id="u62_div" class=""></div>
             <div id="u62_text" class="text " style="display:none; visibility: hidden">
               <p></p>
             </div>
           </div>
 
-          <!-- Unnamed (图片 ) -->
-          <div id="u63" class="ax_default _图片_">
+          <!-- Unnamed (图片) -->
+          <div id="u63" class="ax_default _图片_ transition">
             <img id="u63_img" class="img " src="images/广播动画/u63.svg"/>
             <div id="u63_text" class="text " style="display:none; visibility: hidden">
               <p></p>
@@ -72,18 +75,30 @@
           </div>
 
           <!-- 左上角地图 (组合) -->
-          <div id="u64" class="ax_default" data-label="左上角地图" data-left="20" data-top="19" data-width="200" data-height="201">
+          <div id="u64" class="ax_default" data-label="左上角地图" data-left="20" data-top="19" data-width="200" data-height="201" layer-opacity="1">
 
-            <!-- 地图 (圆形) -->
-            <div id="u65" class="ax_default ellipse" data-label="地图">
-              <img id="u65_img" class="img " src="images/广播动画/地图_u65.svg"/>
+            <!-- 地图 (椭圆) -->
+            <div id="u65" class="ax_default ellipse transition" data-label="地图">
+              <svg data="images/广播动画/地图_u65.svg" id="u65_img" class="img generatedImage">
+
+  <defs>
+    <pattern id="u65_img_bgp" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="u65_img_cl202">
+      <path d="M 0 100  C 0 43.99999999999999  43.99999999999999 0  100 0  C 156 0  200 43.99999999999999  200 100  C 200 156  156 200  100 200  C 43.99999999999999 200  0 156  0 100  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -20 -20 )">
+    <path d="M 0 100  C 0 43.99999999999999  43.99999999999999 0  100 0  C 156 0  200 43.99999999999999  200 100  C 200 156  156 200  100 200  C 43.99999999999999 200  0 156  0 100  Z " fill-rule="nonzero" fill="rgba(215, 215, 215, 1)" stroke="none" transform="matrix(1 0 0 1 20 20 )" class="fill" />
+    <path d="M 0 100  C 0 43.99999999999999  43.99999999999999 0  100 0  C 156 0  200 43.99999999999999  200 100  C 200 156  156 200  100 200  C 43.99999999999999 200  0 156  0 100  Z " stroke-width="0" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 20 20 )" class="stroke" mask="url(#u65_img_cl202)" />
+  </g>
+              </svg>
               <div id="u65_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u66" class="ax_default box_3">
+            <div id="u66" class="ax_default box_3 transition">
               <div id="u66_div" class=""></div>
               <div id="u66_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
@@ -91,19 +106,48 @@
             </div>
 
             <!-- 玩家面向 (组合) -->
-            <div id="u67" class="ax_default" data-label="玩家面向" data-left="94" data-top="88" data-width="53" data-height="46">
+            <div id="u67" class="ax_default" data-label="玩家面向" data-left="94" data-top="88" data-width="53" data-height="46" layer-opacity="1">
 
               <!-- Unnamed (形状) -->
-              <div id="u68" class="ax_default box_1">
-                <img id="u68_img" class="img " src="images/广播动画/u68.svg"/>
+              <div id="u68" class="ax_default box_1 transition">
+                <svg data="images/广播动画/u68.svg" id="u68_img" class="img generatedImage">
+
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="26.5" y1="11.74153846153677" x2="26.5" y2="36.77538461538138" id="u68_img_lg203">
+      <stop id="Stop204" stop-color="#f2f2f2" offset="0" />
+      <stop id="Stop205" stop-color="#d7d7d7" stop-opacity="0.11764705882352941" offset="0.98" />
+      <stop id="Stop206" stop-color="#000000" stop-opacity="0.00784313725490196" offset="1" />
+    </linearGradient>
+    <pattern id="u68_img_bgp" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="u68_img_cl207">
+      <path d="M 0 27  L 26.5 0  L 53 27  C 53 27  41.33999999999998 35.213903743314354  26.5 35.213903743314354  C 11.659999999999975 35.213903743314354  0 27  0 27  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -94 -88 )">
+    <path d="M 0 27  L 26.5 0  L 53 27  C 53 27  41.33999999999998 35.213903743314354  26.5 35.213903743314354  C 11.659999999999975 35.213903743314354  0 27  0 27  Z " fill-rule="nonzero" fill="url(#u68_img_lg203)" stroke="none" transform="matrix(1 0 0 1 94 88 )" class="fill" />
+    <path d="M 0 27  L 26.5 0  L 53 27  C 53 27  41.33999999999998 35.213903743314354  26.5 35.213903743314354  C 11.659999999999975 35.213903743314354  0 27  0 27  Z " stroke-width="0" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 94 88 )" class="stroke" mask="url(#u68_img_cl207)" />
+  </g>
+                </svg>
                 <div id="u68_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
                 </div>
               </div>
 
               <!-- Unnamed (形状) -->
-              <div id="u69" class="ax_default box_3">
-                <img id="u69_img" class="img " src="images/广播动画/u69.svg"/>
+              <div id="u69" class="ax_default box_3 transition">
+                <svg data="images/广播动画/u69.svg" id="u69_img" class="img generatedImage">
+
+  <defs>
+    <pattern id="u69_img_bgp" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="u69_img_cl208">
+      <path d="M 0 26  L 13 0  L 26 26  C 26 26  19.644275700934593 19.246884735200155  13 19.408878504671137  C 6.355724299065408 19.570872274142122  0 26  0 26  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -107 -108 )">
+    <path d="M 0 26  L 13 0  L 26 26  C 26 26  19.644275700934593 19.246884735200155  13 19.408878504671137  C 6.355724299065408 19.570872274142122  0 26  0 26  Z " fill-rule="nonzero" fill="rgba(170, 170, 170, 1)" stroke="none" transform="matrix(1 0 0 1 107 108 )" class="fill" />
+    <path d="M 0 26  L 13 0  L 26 26  C 26 26  19.644275700934593 19.246884735200155  13 19.408878504671137  C 6.355724299065408 19.570872274142122  0 26  0 26  Z " stroke-width="0" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 107 108 )" class="stroke" mask="url(#u69_img_cl208)" />
+  </g>
+                </svg>
                 <div id="u69_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
                 </div>
@@ -112,10 +156,10 @@
           </div>
 
           <!-- 聊天区域 (组合) -->
-          <div id="u70" class="ax_default" data-label="聊天区域" data-left="8" data-top="931" data-width="528" data-height="130">
+          <div id="u70" class="ax_default" data-label="聊天区域" data-left="8" data-top="931" data-width="528" data-height="130" layer-opacity="1">
 
             <!-- 聊天区域 (矩形) -->
-            <div id="u71" class="ax_default box_2" data-label="聊天区域">
+            <div id="u71" class="ax_default box_2 transition" data-label="聊天区域">
               <div id="u71_div" class=""></div>
               <div id="u71_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
@@ -123,10 +167,10 @@
             </div>
 
             <!-- Unnamed (组合) -->
-            <div id="u72" class="ax_default" data-left="80" data-top="946" data-width="354" data-height="102">
+            <div id="u72" class="ax_default" data-left="80" data-top="946" data-width="354" data-height="102" layer-opacity="1">
 
               <!-- Unnamed (矩形) -->
-              <div id="u73" class="ax_default box_3">
+              <div id="u73" class="ax_default box_3 transition">
                 <div id="u73_div" class=""></div>
                 <div id="u73_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
@@ -134,7 +178,7 @@
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u74" class="ax_default box_3">
+              <div id="u74" class="ax_default box_3 transition">
                 <div id="u74_div" class=""></div>
                 <div id="u74_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
@@ -142,7 +186,7 @@
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u75" class="ax_default box_3">
+              <div id="u75" class="ax_default box_3 transition">
                 <div id="u75_div" class=""></div>
                 <div id="u75_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
@@ -151,7 +195,7 @@
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u76" class="ax_default box_2">
+            <div id="u76" class="ax_default box_2 transition">
               <div id="u76_div" class=""></div>
               <div id="u76_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
@@ -159,7 +203,7 @@
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u77" class="ax_default box_2">
+            <div id="u77" class="ax_default box_2 transition">
               <div id="u77_div" class=""></div>
               <div id="u77_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
@@ -168,40 +212,100 @@
           </div>
 
           <!-- 技能区域-下方 (矩形) -->
-          <div id="u78" class="ax_default box_2" data-label="技能区域-下方">
+          <div id="u78" class="ax_default box_2 transition" data-label="技能区域-下方">
             <div id="u78_div" class=""></div>
             <div id="u78_text" class="text " style="display:none; visibility: hidden">
               <p></p>
             </div>
           </div>
 
-          <!-- Unnamed (圆形) -->
-          <div id="u79" class="ax_default ellipse">
-            <img id="u79_img" class="img " src="images/广播动画/u79.svg"/>
+          <!-- Unnamed (椭圆) -->
+          <div id="u79" class="ax_default ellipse transition">
+            <svg data="images/广播动画/u79.svg" id="u79_img" class="img generatedImage">
+
+  <defs>
+    <pattern id="u79_img_bgp" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="u79_img_cl209">
+      <path d="M 0 85  C 0 37.4  37.4 0  85 0  C 132.6 0  170 37.4  170 85  C 170 132.6  132.6 170  85 170  C 37.4 170  0 132.6  0 85  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1687 -878 )">
+    <path d="M 0 85  C 0 37.4  37.4 0  85 0  C 132.6 0  170 37.4  170 85  C 170 132.6  132.6 170  85 170  C 37.4 170  0 132.6  0 85  Z " fill-rule="nonzero" fill="rgba(255, 255, 255, 0)" stroke="none" transform="matrix(1 0 0 1 1687 878 )" class="fill" />
+    <path d="M 0 85  C 0 37.4  37.4 0  85 0  C 132.6 0  170 37.4  170 85  C 170 132.6  132.6 170  85 170  C 37.4 170  0 132.6  0 85  Z " stroke-width="6" stroke-dasharray="0" stroke="rgba(255, 255, 255, 0.17647058823529413)" fill="none" transform="matrix(1 0 0 1 1687 878 )" class="stroke" mask="url(#u79_img_cl209)" />
+  </g>
+            </svg>
             <div id="u79_text" class="text " style="display:none; visibility: hidden">
               <p></p>
             </div>
           </div>
 
-          <!-- Unnamed (圆形) -->
-          <div id="u80" class="ax_default ellipse">
-            <img id="u80_img" class="img " src="images/广播动画/u80.svg"/>
+          <!-- Unnamed (椭圆) -->
+          <div id="u80" class="ax_default ellipse transition">
+            <svg data="images/广播动画/u80.svg" id="u80_img" class="img generatedImage">
+
+  <defs>
+    <pattern id="u80_img_bgp" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <radialGradient cx="61.154362416106665" cy="103.4496644295325" r="120.13422818792208" gradientTransform="matrix(3.548744166310144E-15 -0.9999999999999974 1 3.548744166310153E-15 -42.29530201342605 164.60402684563866 )" gradientUnits="userSpaceOnUse" id="u80_img_rg210">
+      <stop id="Stop211" stop-color="#ffffff" offset="0" />
+      <stop id="Stop212" stop-color="#ffffff" stop-opacity="0" offset="1" />
+    </radialGradient>
+    <mask fill="white" id="u80_img_cl213">
+      <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1712 -814 )">
+    <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " fill-rule="nonzero" fill="rgba(215, 215, 215, 1)" stroke="none" transform="matrix(1 0 0 1 1712 814 )" class="fill" />
+    <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " stroke-width="6" stroke-dasharray="0" stroke="url(#u80_img_rg210)" fill="none" transform="matrix(1 0 0 1 1712 814 )" class="stroke" mask="url(#u80_img_cl213)" />
+  </g>
+            </svg>
             <div id="u80_text" class="text " style="display:none; visibility: hidden">
               <p></p>
             </div>
           </div>
 
-          <!-- Unnamed (圆形) -->
-          <div id="u81" class="ax_default ellipse">
-            <img id="u81_img" class="img " src="images/广播动画/u81.svg"/>
+          <!-- Unnamed (椭圆) -->
+          <div id="u81" class="ax_default ellipse transition">
+            <svg data="images/广播动画/u81.svg" id="u81_img" class="img generatedImage">
+
+  <defs>
+    <pattern id="u81_img_bgp" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <radialGradient cx="100.57485029940118" cy="16.538922155688667" r="98.18368872142732" gradientTransform="matrix(-0.7283811847613487 0.6851721314280413 -0.6851721314280443 -0.7283811847613519 185.16368746261 -40.32552267757194 )" gradientUnits="userSpaceOnUse" id="u81_img_rg214">
+      <stop id="Stop215" stop-color="#ffffff" offset="0" />
+      <stop id="Stop216" stop-color="#ffffff" stop-opacity="0" offset="1" />
+    </radialGradient>
+    <mask fill="white" id="u81_img_cl217">
+      <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1636 -941 )">
+    <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " fill-rule="nonzero" fill="rgba(215, 215, 215, 1)" stroke="none" transform="matrix(1 0 0 1 1636 941 )" class="fill" />
+    <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " stroke-width="6" stroke-dasharray="0" stroke="url(#u81_img_rg214)" fill="none" transform="matrix(1 0 0 1 1636 941 )" class="stroke" mask="url(#u81_img_cl217)" />
+  </g>
+            </svg>
             <div id="u81_text" class="text " style="display:none; visibility: hidden">
               <p></p>
             </div>
           </div>
 
-          <!-- Unnamed (圆形) -->
-          <div id="u82" class="ax_default ellipse">
-            <img id="u82_img" class="img " src="images/广播动画/u82.svg"/>
+          <!-- Unnamed (椭圆) -->
+          <div id="u82" class="ax_default ellipse transition">
+            <svg data="images/广播动画/u82.svg" id="u82_img" class="img generatedImage">
+
+  <defs>
+    <pattern id="u82_img_bgp" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <radialGradient cx="18.35570469798668" cy="31.48322147651072" r="114.77295000434687" gradientTransform="matrix(0.8069623518513882 0.590602880702822 -0.5906028807028233 0.80696235185139 22.137423362841997 -4.763485041993823 )" gradientUnits="userSpaceOnUse" id="u82_img_rg218">
+      <stop id="Stop219" stop-color="#ffffff" offset="0" />
+      <stop id="Stop220" stop-color="#ffffff" stop-opacity="0" offset="1" />
+    </radialGradient>
+    <mask fill="white" id="u82_img_cl221">
+      <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1785 -941 )">
+    <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " fill-rule="nonzero" fill="rgba(215, 215, 215, 1)" stroke="none" transform="matrix(1 0 0 1 1785 941 )" class="fill" />
+    <path d="M 0 60  C 0 26.4  26.4 0  60 0  C 93.60000000000001 0  120 26.4  120 60  C 120 93.60000000000001  93.60000000000001 120  60 120  C 26.4 120  0 93.60000000000001  0 60  Z " stroke-width="6" stroke-dasharray="0" stroke="url(#u82_img_rg218)" fill="none" transform="matrix(1 0 0 1 1785 941 )" class="stroke" mask="url(#u82_img_cl221)" />
+  </g>
+            </svg>
             <div id="u82_text" class="text " style="display:none; visibility: hidden">
               <p></p>
             </div>
@@ -209,10 +313,10 @@
         </div>
 
         <!-- 上方菜单栏 (组合) -->
-        <div id="u83" class="ax_default" data-label="上方菜单栏" data-left="1169" data-top="3" data-width="736" data-height="96">
+        <div id="u83" class="ax_default" data-label="上方菜单栏" data-left="1169" data-top="3" data-width="736" data-height="96" layer-opacity="1">
 
           <!-- 上方菜单栏 (矩形) -->
-          <div id="u84" class="ax_default box_2" data-label="上方菜单栏">
+          <div id="u84" class="ax_default box_2 transition" data-label="上方菜单栏">
             <div id="u84_div" class=""></div>
             <div id="u84_text" class="text " style="display:none; visibility: hidden">
               <p></p>
@@ -220,10 +324,10 @@
           </div>
 
           <!-- 背包按钮 (组合) -->
-          <div id="u85" class="ax_default" data-label="背包按钮" data-left="1674" data-top="13" data-width="70" data-height="70">
+          <div id="u85" class="ax_default" data-label="背包按钮" data-left="1674" data-top="13" data-width="70" data-height="70" layer-opacity="1">
 
-            <!-- Unnamed (图片 ) -->
-            <div id="u86" class="ax_default _图片_">
+            <!-- Unnamed (图片) -->
+            <div id="u86" class="ax_default _图片_ transition">
               <img id="u86_img" class="img " src="images/广播动画/u86.svg"/>
               <div id="u86_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
@@ -231,7 +335,7 @@
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u87" class="ax_default _三级标题">
+            <div id="u87" class="ax_default _三级标题 transition">
               <div id="u87_div" class=""></div>
               <div id="u87_text" class="text ">
                 <p><span>背包</span></p>
@@ -240,10 +344,10 @@
           </div>
 
           <!-- 角色按钮 (组合) -->
-          <div id="u88" class="ax_default" data-label="角色按钮" data-left="1744" data-top="12" data-width="70" data-height="70">
+          <div id="u88" class="ax_default" data-label="角色按钮" data-left="1744" data-top="12" data-width="70" data-height="70" layer-opacity="1">
 
-            <!-- Unnamed (图片 ) -->
-            <div id="u89" class="ax_default _图片_">
+            <!-- Unnamed (图片) -->
+            <div id="u89" class="ax_default _图片_ transition">
               <img id="u89_img" class="img " src="images/广播动画/u89.svg"/>
               <div id="u89_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
@@ -251,7 +355,7 @@
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u90" class="ax_default _三级标题">
+            <div id="u90" class="ax_default _三级标题 transition">
               <div id="u90_div" class=""></div>
               <div id="u90_text" class="text ">
                 <p><span>角色</span></p>
@@ -259,8 +363,8 @@
             </div>
           </div>
 
-          <!-- Unnamed (图片 ) -->
-          <div id="u91" class="ax_default _图片_">
+          <!-- Unnamed (图片) -->
+          <div id="u91" class="ax_default _图片_ transition">
             <img id="u91_img" class="img " src="images/广播动画/u91.png"/>
             <div id="u91_text" class="text " style="display:none; visibility: hidden">
               <p></p>
@@ -283,7 +387,7 @@
           <div id="u94_state0_content" class="panel_state_content">
 
             <!-- Unnamed (矩形) -->
-            <div id="u95" class="ax_default box_3">
+            <div id="u95" class="ax_default box_3 transition">
               <div id="u95_div" class=""></div>
               <div id="u95_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
@@ -291,7 +395,7 @@
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u96" class="ax_default _二级标题">
+            <div id="u96" class="ax_default _二级标题 transition">
               <div id="u96_div" class=""></div>
               <div id="u96_text" class="text ">
                 <p><span>超长广播文字超长广播文字超长广播文字超长广播文字超长广播文字超长广播文字超长广播文字</span></p>

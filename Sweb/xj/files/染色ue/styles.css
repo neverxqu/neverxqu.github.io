@@ -2,7 +2,7 @@
   margin:0px;
   background-image:none;
   position:relative;
-  left:0px;
+  left:-0px;
   width:3976px;
   margin-left:auto;
   margin-right:auto;
@@ -49,11 +49,9 @@
   height:1080px;
   background:inherit;
   background-color:rgba(85, 85, 85, 0.0784313725490196);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u1883 {
   border-width:0px;
@@ -63,6 +61,8 @@
   width:1920px;
   height:1080px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u1883 .text {
   position:absolute;
@@ -77,14 +77,6 @@
   text-transform:none;
   visibility:hidden;
 }
-#u1884_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:765px;
-  height:1080px;
-}
 #u1884 {
   border-width:0px;
   position:absolute;
@@ -93,6 +85,7 @@
   width:765px;
   height:1080px;
   display:flex;
+  transition:none;
 }
 #u1884 .text {
   position:absolute;
@@ -101,19 +94,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1884_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:765px;
+  height:1080px;
+}
 #u1884_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1885_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:388px;
-  height:165px;
 }
 #u1885 {
   border-width:0px;
@@ -123,6 +116,7 @@
   width:388px;
   height:165px;
   display:flex;
+  transition:none;
 }
 #u1885 .text {
   position:absolute;
@@ -130,6 +124,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1885_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:388px;
+  height:165px;
 }
 #u1885_text {
   border-width:0px;
@@ -146,12 +148,10 @@
   height:66px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:60px;
@@ -164,7 +164,9 @@
   width:123px;
   height:66px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:60px;
@@ -189,14 +191,6 @@
   width:0px;
   height:0px;
 }
-#u1888_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:624px;
-  height:915px;
-}
 #u1888 {
   border-width:0px;
   position:absolute;
@@ -205,6 +199,7 @@
   width:624px;
   height:915px;
   display:flex;
+  transition:none;
 }
 #u1888 .text {
   position:absolute;
@@ -212,6 +207,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1888_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:624px;
+  height:915px;
 }
 #u1888_text {
   border-width:0px;
@@ -227,14 +230,6 @@
   width:0px;
   height:0px;
 }
-#u1890_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:68px;
-  height:68px;
-}
 #u1890 {
   border-width:0px;
   position:absolute;
@@ -243,6 +238,7 @@
   width:68px;
   height:68px;
   display:flex;
+  transition:none;
 }
 #u1890 .text {
   position:absolute;
@@ -250,6 +246,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1890_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:68px;
+  height:68px;
 }
 #u1890_text {
   border-width:0px;
@@ -265,14 +269,6 @@
   width:0px;
   height:0px;
 }
-#u1892_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:234px;
-  height:51px;
-}
 #u1892 {
   border-width:0px;
   position:absolute;
@@ -281,6 +277,7 @@
   width:234px;
   height:51px;
   display:flex;
+  transition:none;
 }
 #u1892 .text {
   position:absolute;
@@ -289,19 +286,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1892_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:234px;
+  height:51px;
+}
 #u1892_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1893_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:60px;
-  height:60px;
 }
 #u1893 {
   border-width:0px;
@@ -311,6 +308,7 @@
   width:60px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u1893 .text {
   position:absolute;
@@ -318,6 +316,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1893_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:60px;
+  height:60px;
 }
 #u1893_text {
   border-width:0px;
@@ -334,12 +340,10 @@
   height:24px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -353,7 +357,9 @@
   width:112px;
   height:24px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -379,14 +385,6 @@
   width:0px;
   height:0px;
 }
-#u1896_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:234px;
-  height:51px;
-}
 #u1896 {
   border-width:0px;
   position:absolute;
@@ -395,6 +393,7 @@
   width:234px;
   height:51px;
   display:flex;
+  transition:none;
 }
 #u1896 .text {
   position:absolute;
@@ -403,19 +402,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1896_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:234px;
+  height:51px;
+}
 #u1896_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1897_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:60px;
-  height:60px;
 }
 #u1897 {
   border-width:0px;
@@ -425,6 +424,7 @@
   width:60px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u1897 .text {
   position:absolute;
@@ -432,6 +432,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1897_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:60px;
+  height:60px;
 }
 #u1897_text {
   border-width:0px;
@@ -448,12 +456,10 @@
   height:24px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -467,7 +473,9 @@
   width:112px;
   height:24px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -517,14 +525,6 @@
   width:0px;
   height:0px;
 }
-#u1903_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:56px;
-  height:188px;
-}
 #u1903 {
   border-width:0px;
   position:absolute;
@@ -533,6 +533,7 @@
   width:56px;
   height:188px;
   display:flex;
+  transition:none;
 }
 #u1903 .text {
   position:absolute;
@@ -540,6 +541,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1903_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:56px;
+  height:188px;
 }
 #u1903_text {
   border-width:0px;
@@ -556,12 +565,10 @@
   height:54px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -574,7 +581,9 @@
   width:25px;
   height:54px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -599,14 +608,6 @@
   width:0px;
   height:0px;
 }
-#u1906_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:72px;
-  height:188px;
-}
 #u1906 {
   border-width:0px;
   position:absolute;
@@ -615,6 +616,7 @@
   width:72px;
   height:188px;
   display:flex;
+  transition:none;
 }
 #u1906 .text {
   position:absolute;
@@ -623,19 +625,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1906_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:72px;
+  height:188px;
+}
 #u1906_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1907_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:56px;
-  height:188px;
 }
 #u1907 {
   border-width:0px;
@@ -645,6 +647,7 @@
   width:56px;
   height:188px;
   display:flex;
+  transition:none;
 }
 #u1907 .text {
   position:absolute;
@@ -652,6 +655,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1907_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:56px;
+  height:188px;
 }
 #u1907_text {
   border-width:0px;
@@ -668,12 +679,10 @@
   height:54px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#F2F2F2;
@@ -686,7 +695,9 @@
   width:25px;
   height:54px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#F2F2F2;
@@ -711,14 +722,6 @@
   width:0px;
   height:0px;
 }
-#u1910_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:600px;
-  height:9px;
-}
 #u1910 {
   border-width:0px;
   position:absolute;
@@ -727,6 +730,7 @@
   width:600px;
   height:9px;
   display:flex;
+  transition:none;
 }
 #u1910 .text {
   position:absolute;
@@ -734,6 +738,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1910_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:600px;
+  height:9px;
 }
 #u1910_text {
   border-width:0px;
@@ -749,14 +761,6 @@
   width:0px;
   height:0px;
 }
-#u1912_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:40px;
-  height:40px;
-}
 #u1912 {
   border-width:0px;
   position:absolute;
@@ -765,6 +769,7 @@
   width:40px;
   height:40px;
   display:flex;
+  transition:none;
 }
 #u1912 .text {
   position:absolute;
@@ -772,6 +777,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1912_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:40px;
+  height:40px;
 }
 #u1912_text {
   border-width:0px;
@@ -788,11 +801,9 @@
   height:35px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -805,6 +816,8 @@
   width:96px;
   height:35px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -837,12 +850,10 @@
   width:64px;
   height:50px;
   background:inherit;
-  background-color:rgba(51, 51, 51, 0.192156862745098);
-  border:none;
+  background-color:rgba(51, 51, 51, 0.19215686274509805);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u1915 {
   border-width:0px;
@@ -852,6 +863,8 @@
   width:64px;
   height:50px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u1915 .text {
   position:absolute;
@@ -866,14 +879,6 @@
   text-transform:none;
   visibility:hidden;
 }
-#u1916_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:35px;
-  height:34px;
-}
 #u1916 {
   border-width:0px;
   position:absolute;
@@ -882,6 +887,7 @@
   width:35px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u1916 .text {
   position:absolute;
@@ -889,6 +895,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1916_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:35px;
+  height:34px;
 }
 #u1916_text {
   border-width:0px;
@@ -904,14 +918,6 @@
   width:0px;
   height:0px;
 }
-#u1918_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:76px;
-}
 #u1918 {
   border-width:0px;
   position:absolute;
@@ -920,6 +926,7 @@
   width:193px;
   height:76px;
   display:flex;
+  transition:none;
 }
 #u1918 .text {
   position:absolute;
@@ -928,19 +935,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1918_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:76px;
+}
 #u1918_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1919_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:4px;
-  height:41px;
 }
 #u1919 {
   border-width:0px;
@@ -950,6 +957,7 @@
   width:4px;
   height:41px;
   display:flex;
+  transition:none;
 }
 #u1919 .text {
   position:absolute;
@@ -958,19 +966,19 @@
   box-sizing:border-box;
   width:100%;
 }
-#u1919_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-  visibility:hidden;
-}
-#u1920_img {
+#u1919_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:4px;
   height:41px;
+}
+#u1919_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
 }
 #u1920 {
   border-width:0px;
@@ -980,6 +988,7 @@
   width:4px;
   height:41px;
   display:flex;
+  transition:none;
 }
 #u1920 .text {
   position:absolute;
@@ -987,6 +996,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1920_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:4px;
+  height:41px;
 }
 #u1920_text {
   border-width:0px;
@@ -1003,12 +1020,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#555555;
@@ -1021,7 +1036,9 @@
   width:49px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#555555;
@@ -1047,12 +1064,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -1065,7 +1080,9 @@
   width:49px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -1091,12 +1108,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -1109,7 +1124,9 @@
   width:49px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -1150,14 +1167,6 @@
   width:0px;
   height:0px;
 }
-#u1927_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u1927 {
   border-width:0px;
   position:absolute;
@@ -1166,6 +1175,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u1927 .text {
   position:absolute;
@@ -1174,19 +1184,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1927_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u1927_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1928_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u1928 {
   border-width:0px;
@@ -1196,6 +1206,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u1928 .text {
   position:absolute;
@@ -1204,19 +1215,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1928_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u1928_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1929_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u1929 {
   border-width:0px;
@@ -1226,6 +1237,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u1929 .text {
   position:absolute;
@@ -1234,19 +1246,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1929_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u1929_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1930_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u1930 {
   border-width:0px;
@@ -1256,6 +1268,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u1930 .text {
   position:absolute;
@@ -1263,6 +1276,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1930_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u1930_text {
   border-width:0px;
@@ -1279,12 +1300,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -1297,7 +1316,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -1314,14 +1335,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u1932_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
-}
 #u1932 {
   border-width:0px;
   position:absolute;
@@ -1330,6 +1343,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u1932 .text {
   position:absolute;
@@ -1337,6 +1351,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1932_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u1932_text {
   border-width:0px;
@@ -1352,14 +1374,6 @@
   width:0px;
   height:0px;
 }
-#u1934_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:45px;
-  height:145px;
-}
 #u1934 {
   border-width:0px;
   position:absolute;
@@ -1368,6 +1382,7 @@
   width:45px;
   height:145px;
   display:flex;
+  transition:none;
 }
 #u1934 .text {
   position:absolute;
@@ -1375,6 +1390,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1934_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:45px;
+  height:145px;
 }
 #u1934_text {
   border-width:0px;
@@ -1391,11 +1414,9 @@
   height:81px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1409,6 +1430,8 @@
   width:24px;
   height:81px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1426,14 +1449,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u1936_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:192px;
-  height:256px;
-}
 #u1936 {
   border-width:0px;
   position:absolute;
@@ -1442,6 +1457,7 @@
   width:192px;
   height:256px;
   display:flex;
+  transition:none;
 }
 #u1936 .text {
   position:absolute;
@@ -1449,6 +1465,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1936_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:192px;
+  height:256px;
 }
 #u1936_text {
   border-width:0px;
@@ -1464,14 +1488,6 @@
   width:0px;
   height:0px;
 }
-#u1938_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u1938 {
   border-width:0px;
   position:absolute;
@@ -1480,6 +1496,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u1938 .text {
   position:absolute;
@@ -1488,19 +1505,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1938_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u1938_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1939_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u1939 {
   border-width:0px;
@@ -1510,6 +1527,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u1939 .text {
   position:absolute;
@@ -1518,19 +1536,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1939_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u1939_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1940_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u1940 {
   border-width:0px;
@@ -1540,6 +1558,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u1940 .text {
   position:absolute;
@@ -1548,19 +1567,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1940_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u1940_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1941_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u1941 {
   border-width:0px;
@@ -1570,6 +1589,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u1941 .text {
   position:absolute;
@@ -1577,6 +1597,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1941_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u1941_text {
   border-width:0px;
@@ -1593,12 +1621,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -1611,7 +1637,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -1628,14 +1656,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u1943_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
-}
 #u1943 {
   border-width:0px;
   position:absolute;
@@ -1644,6 +1664,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u1943 .text {
   position:absolute;
@@ -1651,6 +1672,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1943_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u1943_text {
   border-width:0px;
@@ -1666,14 +1695,6 @@
   width:0px;
   height:0px;
 }
-#u1945_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u1945 {
   border-width:0px;
   position:absolute;
@@ -1682,6 +1703,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u1945 .text {
   position:absolute;
@@ -1690,19 +1712,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1945_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u1945_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1946_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u1946 {
   border-width:0px;
@@ -1712,6 +1734,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u1946 .text {
   position:absolute;
@@ -1720,19 +1743,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1946_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u1946_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1947_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u1947 {
   border-width:0px;
@@ -1742,6 +1765,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u1947 .text {
   position:absolute;
@@ -1750,19 +1774,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1947_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u1947_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1948_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u1948 {
   border-width:0px;
@@ -1772,6 +1796,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u1948 .text {
   position:absolute;
@@ -1779,6 +1804,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1948_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u1948_text {
   border-width:0px;
@@ -1795,12 +1828,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -1813,7 +1844,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -1830,14 +1863,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u1950_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
-}
 #u1950 {
   border-width:0px;
   position:absolute;
@@ -1846,6 +1871,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u1950 .text {
   position:absolute;
@@ -1853,6 +1879,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1950_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u1950_text {
   border-width:0px;
@@ -1868,14 +1902,6 @@
   width:0px;
   height:0px;
 }
-#u1952_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u1952 {
   border-width:0px;
   position:absolute;
@@ -1884,6 +1910,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u1952 .text {
   position:absolute;
@@ -1892,19 +1919,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1952_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u1952_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1953_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u1953 {
   border-width:0px;
@@ -1914,6 +1941,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u1953 .text {
   position:absolute;
@@ -1922,19 +1950,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1953_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u1953_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1954_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u1954 {
   border-width:0px;
@@ -1944,6 +1972,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u1954 .text {
   position:absolute;
@@ -1952,19 +1981,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1954_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u1954_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1955_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u1955 {
   border-width:0px;
@@ -1974,6 +2003,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u1955 .text {
   position:absolute;
@@ -1981,6 +2011,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1955_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u1955_text {
   border-width:0px;
@@ -1997,12 +2035,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -2015,7 +2051,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -2032,14 +2070,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u1957_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:181px;
-  height:238px;
-}
 #u1957 {
   border-width:0px;
   position:absolute;
@@ -2049,6 +2079,7 @@
   height:238px;
   display:flex;
   opacity:0.58;
+  transition:none;
 }
 #u1957 .text {
   position:absolute;
@@ -2057,19 +2088,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1957_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:238px;
+}
 #u1957_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1958_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
 }
 #u1958 {
   border-width:0px;
@@ -2079,6 +2110,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u1958 .text {
   position:absolute;
@@ -2087,19 +2119,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1958_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
+}
 #u1958_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1959_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
 }
 #u1959 {
   border-width:0px;
@@ -2109,6 +2141,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u1959 .text {
   position:absolute;
@@ -2116,6 +2149,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1959_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u1959_text {
   border-width:0px;
@@ -2131,14 +2172,6 @@
   width:0px;
   height:0px;
 }
-#u1961_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u1961 {
   border-width:0px;
   position:absolute;
@@ -2147,6 +2180,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u1961 .text {
   position:absolute;
@@ -2155,19 +2189,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1961_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u1961_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1962_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u1962 {
   border-width:0px;
@@ -2177,6 +2211,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u1962 .text {
   position:absolute;
@@ -2185,19 +2220,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1962_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u1962_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1963_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u1963 {
   border-width:0px;
@@ -2207,6 +2242,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u1963 .text {
   position:absolute;
@@ -2215,19 +2251,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1963_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u1963_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1964_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u1964 {
   border-width:0px;
@@ -2237,6 +2273,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u1964 .text {
   position:absolute;
@@ -2244,6 +2281,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1964_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u1964_text {
   border-width:0px;
@@ -2260,12 +2305,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -2278,7 +2321,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -2295,14 +2340,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u1966_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:181px;
-  height:238px;
-}
 #u1966 {
   border-width:0px;
   position:absolute;
@@ -2312,6 +2349,7 @@
   height:238px;
   display:flex;
   opacity:0.58;
+  transition:none;
 }
 #u1966 .text {
   position:absolute;
@@ -2320,19 +2358,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1966_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:238px;
+}
 #u1966_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1967_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
 }
 #u1967 {
   border-width:0px;
@@ -2342,6 +2380,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u1967 .text {
   position:absolute;
@@ -2350,19 +2389,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1967_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
+}
 #u1967_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1968_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
 }
 #u1968 {
   border-width:0px;
@@ -2372,6 +2411,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u1968 .text {
   position:absolute;
@@ -2379,6 +2419,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1968_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u1968_text {
   border-width:0px;
@@ -2394,14 +2442,6 @@
   width:0px;
   height:0px;
 }
-#u1970_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u1970 {
   border-width:0px;
   position:absolute;
@@ -2410,6 +2450,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u1970 .text {
   position:absolute;
@@ -2418,19 +2459,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1970_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u1970_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1971_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u1971 {
   border-width:0px;
@@ -2440,6 +2481,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u1971 .text {
   position:absolute;
@@ -2448,19 +2490,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1971_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u1971_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1972_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u1972 {
   border-width:0px;
@@ -2470,6 +2512,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u1972 .text {
   position:absolute;
@@ -2478,19 +2521,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1972_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u1972_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1973_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u1973 {
   border-width:0px;
@@ -2500,6 +2543,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u1973 .text {
   position:absolute;
@@ -2507,6 +2551,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1973_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u1973_text {
   border-width:0px;
@@ -2523,12 +2575,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -2541,7 +2591,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -2558,14 +2610,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u1975_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:181px;
-  height:238px;
-}
 #u1975 {
   border-width:0px;
   position:absolute;
@@ -2575,6 +2619,7 @@
   height:238px;
   display:flex;
   opacity:0.58;
+  transition:none;
 }
 #u1975 .text {
   position:absolute;
@@ -2583,19 +2628,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1975_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:238px;
+}
 #u1975_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1976_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
 }
 #u1976 {
   border-width:0px;
@@ -2605,6 +2650,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u1976 .text {
   position:absolute;
@@ -2613,19 +2659,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1976_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
+}
 #u1976_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1977_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
 }
 #u1977 {
   border-width:0px;
@@ -2635,6 +2681,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u1977 .text {
   position:absolute;
@@ -2642,6 +2689,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1977_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u1977_text {
   border-width:0px;
@@ -2657,14 +2712,6 @@
   width:0px;
   height:0px;
 }
-#u1979_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u1979 {
   border-width:0px;
   position:absolute;
@@ -2673,6 +2720,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u1979 .text {
   position:absolute;
@@ -2681,19 +2729,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1979_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u1979_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1980_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u1980 {
   border-width:0px;
@@ -2703,6 +2751,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u1980 .text {
   position:absolute;
@@ -2711,19 +2760,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1980_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u1980_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1981_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u1981 {
   border-width:0px;
@@ -2733,6 +2782,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u1981 .text {
   position:absolute;
@@ -2741,19 +2791,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1981_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u1981_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1982_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u1982 {
   border-width:0px;
@@ -2763,6 +2813,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u1982 .text {
   position:absolute;
@@ -2770,6 +2821,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1982_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u1982_text {
   border-width:0px;
@@ -2786,12 +2845,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -2804,7 +2861,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -2821,14 +2880,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u1984_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:181px;
-  height:238px;
-}
 #u1984 {
   border-width:0px;
   position:absolute;
@@ -2838,6 +2889,7 @@
   height:238px;
   display:flex;
   opacity:0.58;
+  transition:none;
 }
 #u1984 .text {
   position:absolute;
@@ -2846,19 +2898,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1984_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:238px;
+}
 #u1984_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1985_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
 }
 #u1985 {
   border-width:0px;
@@ -2868,6 +2920,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u1985 .text {
   position:absolute;
@@ -2876,19 +2929,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u1985_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
+}
 #u1985_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u1986_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
 }
 #u1986 {
   border-width:0px;
@@ -2898,6 +2951,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u1986 .text {
   position:absolute;
@@ -2905,6 +2959,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1986_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u1986_text {
   border-width:0px;
@@ -2928,14 +2990,6 @@
   width:0px;
   height:0px;
 }
-#u1989_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:75px;
-}
 #u1989 {
   border-width:0px;
   position:absolute;
@@ -2944,6 +2998,7 @@
   width:80px;
   height:75px;
   display:flex;
+  transition:none;
 }
 #u1989 .text {
   position:absolute;
@@ -2951,6 +3006,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1989_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:75px;
 }
 #u1989_text {
   border-width:0px;
@@ -2967,11 +3030,9 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -2984,6 +3045,8 @@
   width:48px;
   height:27px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -3008,14 +3071,6 @@
   width:0px;
   height:0px;
 }
-#u1992_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:75px;
-}
 #u1992 {
   border-width:0px;
   position:absolute;
@@ -3024,6 +3079,7 @@
   width:80px;
   height:75px;
   display:flex;
+  transition:none;
   color:#AAAAAA;
 }
 #u1992 .text {
@@ -3032,6 +3088,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1992_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:75px;
 }
 #u1992_text {
   border-width:0px;
@@ -3048,11 +3112,9 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -3066,6 +3128,8 @@
   width:48px;
   height:27px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -3091,14 +3155,6 @@
   width:0px;
   height:0px;
 }
-#u1995_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:76px;
-}
 #u1995 {
   border-width:0px;
   position:absolute;
@@ -3107,6 +3163,7 @@
   width:80px;
   height:76px;
   display:flex;
+  transition:none;
 }
 #u1995 .text {
   position:absolute;
@@ -3114,6 +3171,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1995_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:76px;
 }
 #u1995_text {
   border-width:0px;
@@ -3130,11 +3195,9 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -3148,6 +3211,8 @@
   width:48px;
   height:27px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -3173,14 +3238,6 @@
   width:0px;
   height:0px;
 }
-#u1998_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:75px;
-}
 #u1998 {
   border-width:0px;
   position:absolute;
@@ -3189,6 +3246,7 @@
   width:80px;
   height:75px;
   display:flex;
+  transition:none;
 }
 #u1998 .text {
   position:absolute;
@@ -3196,6 +3254,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1998_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:75px;
 }
 #u1998_text {
   border-width:0px;
@@ -3212,11 +3278,9 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -3230,6 +3294,8 @@
   width:48px;
   height:27px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -3280,12 +3346,10 @@
   height:76px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:70px;
@@ -3298,7 +3362,9 @@
   width:286px;
   height:76px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:70px;
@@ -3324,12 +3390,10 @@
   height:35px;
   background:inherit;
   background-color:rgba(215, 215, 215, 1);
-  border:none;
   border-radius:10px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:30px;
@@ -3342,7 +3406,9 @@
   width:35px;
   height:35px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:30px;
@@ -3367,14 +3433,6 @@
   width:0px;
   height:0px;
 }
-#u2006_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:230px;
-  height:48px;
-}
 #u2006 {
   border-width:0px;
   position:absolute;
@@ -3383,6 +3441,7 @@
   width:230px;
   height:48px;
   display:flex;
+  transition:none;
 }
 #u2006 .text {
   position:absolute;
@@ -3390,6 +3449,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2006_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:230px;
+  height:48px;
 }
 #u2006_text {
   border-width:0px;
@@ -3406,12 +3473,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#F2F2F2;
@@ -3424,7 +3489,9 @@
   width:129px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#F2F2F2;
@@ -3449,14 +3516,6 @@
   width:0px;
   height:0px;
 }
-#u2009_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:363px;
-  height:131px;
-}
 #u2009 {
   border-width:0px;
   position:absolute;
@@ -3465,6 +3524,7 @@
   width:363px;
   height:131px;
   display:flex;
+  transition:none;
 }
 #u2009 .text {
   position:absolute;
@@ -3473,19 +3533,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2009_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:363px;
+  height:131px;
+}
 #u2009_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2010_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:394px;
-  height:132px;
 }
 #u2010 {
   border-width:0px;
@@ -3495,7 +3555,8 @@
   width:394px;
   height:132px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -3507,6 +3568,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2010_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:394px;
+  height:132px;
 }
 #u2010_text {
   border-width:0px;
@@ -3523,12 +3592,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -3542,7 +3609,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -3584,7 +3653,6 @@
   -ms-overflow-y:hidden;
   overflow-y:hidden;
   background-image:none;
-  border:none;
   border-radius:0px;
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
@@ -3631,11 +3699,9 @@
   height:80px;
   background:inherit;
   background-color:rgba(51, 51, 51, 1);
-  border:none;
   border-radius:50px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2016 {
   border-width:0px;
@@ -3645,6 +3711,8 @@
   width:80px;
   height:80px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2016 .text {
   position:absolute;
@@ -3659,14 +3727,6 @@
   text-transform:none;
   visibility:hidden;
 }
-#u2017_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
-}
 #u2017 {
   border-width:0px;
   position:absolute;
@@ -3675,6 +3735,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u2017 .text {
   position:absolute;
@@ -3682,6 +3743,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2017_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
 }
 #u2017_text {
   border-width:0px;
@@ -3706,11 +3775,9 @@
   height:80px;
   background:inherit;
   background-color:rgba(85, 85, 85, 1);
-  border:none;
   border-radius:50px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2019 {
   border-width:0px;
@@ -3720,6 +3787,8 @@
   width:80px;
   height:80px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2019 .text {
   position:absolute;
@@ -3742,9 +3811,8 @@
   border-style:solid;
   border-color:rgba(255, 255, 255, 1);
   border-radius:50px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2019.selected {
 }
@@ -3754,14 +3822,6 @@
   text-transform:none;
   visibility:hidden;
 }
-#u2020_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
-}
 #u2020 {
   border-width:0px;
   position:absolute;
@@ -3770,6 +3830,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u2020 .text {
   position:absolute;
@@ -3777,6 +3838,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2020_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
 }
 #u2020_text {
   border-width:0px;
@@ -3801,11 +3870,9 @@
   height:80px;
   background:inherit;
   background-color:rgba(170, 170, 170, 1);
-  border:none;
   border-radius:50px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2022 {
   border-width:0px;
@@ -3815,6 +3882,8 @@
   width:80px;
   height:80px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2022 .text {
   position:absolute;
@@ -3837,9 +3906,8 @@
   border-style:solid;
   border-color:rgba(255, 255, 255, 1);
   border-radius:50px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2022.selected {
 }
@@ -3866,11 +3934,9 @@
   height:80px;
   background:inherit;
   background-color:rgba(127, 127, 127, 1);
-  border:none;
   border-radius:50px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2024 {
   border-width:0px;
@@ -3880,6 +3946,8 @@
   width:80px;
   height:80px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2024 .text {
   position:absolute;
@@ -3902,9 +3970,8 @@
   border-style:solid;
   border-color:rgba(255, 255, 255, 1);
   border-radius:50px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2024.selected {
 }
@@ -3914,14 +3981,6 @@
   text-transform:none;
   visibility:hidden;
 }
-#u2025_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:81px;
-  height:65px;
-}
 #u2025 {
   border-width:0px;
   position:absolute;
@@ -3930,7 +3989,8 @@
   width:81px;
   height:65px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -3942,6 +4002,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2025_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:81px;
+  height:65px;
 }
 #u2025_text {
   border-width:0px;
@@ -3958,12 +4026,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -3977,7 +4043,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -4003,14 +4071,6 @@
   width:0px;
   height:0px;
 }
-#u2028_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:394px;
-  height:111px;
-}
 #u2028 {
   border-width:0px;
   position:absolute;
@@ -4019,6 +4079,7 @@
   width:394px;
   height:111px;
   display:flex;
+  transition:none;
 }
 #u2028 .text {
   position:absolute;
@@ -4026,6 +4087,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2028_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:394px;
+  height:111px;
 }
 #u2028_img.disabled {
 }
@@ -4046,12 +4115,10 @@
   height:59px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   text-align:center;
@@ -4064,7 +4131,9 @@
   width:279px;
   height:59px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   text-align:center;
@@ -4097,14 +4166,6 @@
   width:0px;
   height:0px;
 }
-#u2032_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:113px;
-  height:115px;
-}
 #u2032 {
   border-width:0px;
   position:absolute;
@@ -4113,6 +4174,7 @@
   width:113px;
   height:115px;
   display:flex;
+  transition:none;
 }
 #u2032 .text {
   position:absolute;
@@ -4121,19 +4183,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2032_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:115px;
+}
 #u2032_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2033_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:120px;
-  height:96px;
 }
 #u2033 {
   border-width:0px;
@@ -4143,6 +4205,7 @@
   width:120px;
   height:96px;
   display:flex;
+  transition:none;
 }
 #u2033 .text {
   position:absolute;
@@ -4150,6 +4213,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2033_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:120px;
+  height:96px;
 }
 #u2033_text {
   border-width:0px;
@@ -4165,14 +4236,6 @@
   width:0px;
   height:0px;
 }
-#u2035_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:116px;
-  height:116px;
-}
 #u2035 {
   border-width:0px;
   position:absolute;
@@ -4181,6 +4244,7 @@
   width:116px;
   height:116px;
   display:flex;
+  transition:none;
 }
 #u2035 .text {
   position:absolute;
@@ -4189,19 +4253,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2035_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:116px;
+  height:116px;
+}
 #u2035_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2036_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:118px;
-  height:118px;
 }
 #u2036 {
   border-width:0px;
@@ -4211,6 +4275,7 @@
   width:118px;
   height:118px;
   display:flex;
+  transition:none;
 }
 #u2036 .text {
   position:absolute;
@@ -4218,6 +4283,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2036_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:118px;
+  height:118px;
 }
 #u2036_img.selected {
 }
@@ -4238,11 +4311,9 @@
   height:25px;
   background:inherit;
   background-color:rgba(128, 128, 255, 0.8);
-  border:none;
   border-radius:10px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2037 {
   border-width:0px;
@@ -4252,6 +4323,8 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2037 .text {
   position:absolute;
@@ -4275,12 +4348,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -4294,7 +4365,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -4323,14 +4396,6 @@
   width:0px;
   height:0px;
 }
-#u2040_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:113px;
-  height:115px;
-}
 #u2040 {
   border-width:0px;
   position:absolute;
@@ -4339,6 +4404,7 @@
   width:113px;
   height:115px;
   display:flex;
+  transition:none;
 }
 #u2040 .text {
   position:absolute;
@@ -4347,19 +4413,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2040_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:115px;
+}
 #u2040_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2041_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:120px;
-  height:96px;
 }
 #u2041 {
   border-width:0px;
@@ -4369,6 +4435,7 @@
   width:120px;
   height:96px;
   display:flex;
+  transition:none;
 }
 #u2041 .text {
   position:absolute;
@@ -4376,6 +4443,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2041_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:120px;
+  height:96px;
 }
 #u2041_text {
   border-width:0px;
@@ -4391,14 +4466,6 @@
   width:0px;
   height:0px;
 }
-#u2043_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:116px;
-  height:116px;
-}
 #u2043 {
   border-width:0px;
   position:absolute;
@@ -4407,6 +4474,7 @@
   width:116px;
   height:116px;
   display:flex;
+  transition:none;
 }
 #u2043 .text {
   position:absolute;
@@ -4415,19 +4483,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2043_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:116px;
+  height:116px;
+}
 #u2043_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2044_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:118px;
-  height:118px;
 }
 #u2044 {
   border-width:0px;
@@ -4437,6 +4505,7 @@
   width:118px;
   height:118px;
   display:flex;
+  transition:none;
 }
 #u2044 .text {
   position:absolute;
@@ -4444,6 +4513,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2044_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:118px;
+  height:118px;
 }
 #u2044_img.selected {
 }
@@ -4464,11 +4541,9 @@
   height:25px;
   background:inherit;
   background-color:rgba(128, 128, 255, 0.8);
-  border:none;
   border-radius:10px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2045 {
   border-width:0px;
@@ -4478,6 +4553,8 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2045 .text {
   position:absolute;
@@ -4501,12 +4578,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -4520,7 +4595,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -4549,14 +4626,6 @@
   width:0px;
   height:0px;
 }
-#u2048_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:113px;
-  height:115px;
-}
 #u2048 {
   border-width:0px;
   position:absolute;
@@ -4565,6 +4634,7 @@
   width:113px;
   height:115px;
   display:flex;
+  transition:none;
 }
 #u2048 .text {
   position:absolute;
@@ -4573,19 +4643,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2048_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:115px;
+}
 #u2048_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2049_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:120px;
-  height:96px;
 }
 #u2049 {
   border-width:0px;
@@ -4595,6 +4665,7 @@
   width:120px;
   height:96px;
   display:flex;
+  transition:none;
 }
 #u2049 .text {
   position:absolute;
@@ -4602,6 +4673,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2049_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:120px;
+  height:96px;
 }
 #u2049_text {
   border-width:0px;
@@ -4617,14 +4696,6 @@
   width:0px;
   height:0px;
 }
-#u2051_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:116px;
-  height:116px;
-}
 #u2051 {
   border-width:0px;
   position:absolute;
@@ -4633,6 +4704,7 @@
   width:116px;
   height:116px;
   display:flex;
+  transition:none;
 }
 #u2051 .text {
   position:absolute;
@@ -4641,19 +4713,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2051_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:116px;
+  height:116px;
+}
 #u2051_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2052_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:118px;
-  height:118px;
 }
 #u2052 {
   border-width:0px;
@@ -4663,6 +4735,7 @@
   width:118px;
   height:118px;
   display:flex;
+  transition:none;
 }
 #u2052 .text {
   position:absolute;
@@ -4670,6 +4743,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2052_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:118px;
+  height:118px;
 }
 #u2052_img.selected {
 }
@@ -4690,11 +4771,9 @@
   height:25px;
   background:inherit;
   background-color:rgba(128, 128, 255, 0.8);
-  border:none;
   border-radius:10px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2053 {
   border-width:0px;
@@ -4704,6 +4783,8 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2053 .text {
   position:absolute;
@@ -4718,14 +4799,6 @@
   text-transform:none;
   visibility:hidden;
 }
-#u2054_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:23px;
-  height:22px;
-}
 #u2054 {
   border-width:0px;
   position:absolute;
@@ -4734,6 +4807,7 @@
   width:23px;
   height:22px;
   display:flex;
+  transition:none;
 }
 #u2054 .text {
   position:absolute;
@@ -4741,6 +4815,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2054_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:23px;
+  height:22px;
 }
 #u2054_text {
   border-width:0px;
@@ -4757,12 +4839,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -4776,7 +4856,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -4797,14 +4879,6 @@
   -moz-text-shadow:1px 1px 5px rgba(0, 0, 0, 0.996078431372549);
   text-transform:none;
 }
-#u2056_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:120px;
-  height:119px;
-}
 #u2056 {
   border-width:0px;
   position:absolute;
@@ -4813,6 +4887,7 @@
   width:120px;
   height:119px;
   display:flex;
+  transition:none;
 }
 #u2056 .text {
   position:absolute;
@@ -4820,6 +4895,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2056_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:120px;
+  height:119px;
 }
 #u2056_text {
   border-width:0px;
@@ -4835,14 +4918,6 @@
   width:0px;
   height:0px;
 }
-#u2058_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:451px;
-  height:74px;
-}
 #u2058 {
   border-width:0px;
   position:absolute;
@@ -4851,6 +4926,7 @@
   width:451px;
   height:74px;
   display:flex;
+  transition:none;
 }
 #u2058 .text {
   position:absolute;
@@ -4858,6 +4934,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2058_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:451px;
+  height:74px;
 }
 #u2058_text {
   border-width:0px;
@@ -4874,12 +4958,10 @@
   height:60px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -4894,7 +4976,9 @@
   width:127px;
   height:60px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -4913,14 +4997,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2060_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:78px;
-}
 #u2060 {
   border-width:0px;
   position:absolute;
@@ -4929,6 +5005,7 @@
   width:80px;
   height:78px;
   display:flex;
+  transition:none;
 }
 #u2060 .text {
   position:absolute;
@@ -4937,19 +5014,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2060_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:78px;
+}
 #u2060_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2061_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:60px;
-  height:60px;
 }
 #u2061 {
   border-width:0px;
@@ -4959,6 +5036,7 @@
   width:60px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2061 .text {
   position:absolute;
@@ -4966,6 +5044,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2061_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:60px;
+  height:60px;
 }
 #u2061_text {
   border-width:0px;
@@ -5006,11 +5092,9 @@
   height:1080px;
   background:inherit;
   background-color:rgba(85, 85, 85, 0.0784313725490196);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2065 {
   border-width:0px;
@@ -5020,6 +5104,8 @@
   width:1920px;
   height:1080px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2065 .text {
   position:absolute;
@@ -5034,14 +5120,6 @@
   text-transform:none;
   visibility:hidden;
 }
-#u2066_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:765px;
-  height:1080px;
-}
 #u2066 {
   border-width:0px;
   position:absolute;
@@ -5050,6 +5128,7 @@
   width:765px;
   height:1080px;
   display:flex;
+  transition:none;
 }
 #u2066 .text {
   position:absolute;
@@ -5058,19 +5137,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2066_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:765px;
+  height:1080px;
+}
 #u2066_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2067_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:388px;
-  height:165px;
 }
 #u2067 {
   border-width:0px;
@@ -5080,6 +5159,7 @@
   width:388px;
   height:165px;
   display:flex;
+  transition:none;
 }
 #u2067 .text {
   position:absolute;
@@ -5087,6 +5167,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2067_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:388px;
+  height:165px;
 }
 #u2067_text {
   border-width:0px;
@@ -5103,12 +5191,10 @@
   height:66px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:60px;
@@ -5121,7 +5207,9 @@
   width:123px;
   height:66px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:60px;
@@ -5146,14 +5234,6 @@
   width:0px;
   height:0px;
 }
-#u2070_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:624px;
-  height:915px;
-}
 #u2070 {
   border-width:0px;
   position:absolute;
@@ -5162,6 +5242,7 @@
   width:624px;
   height:915px;
   display:flex;
+  transition:none;
 }
 #u2070 .text {
   position:absolute;
@@ -5169,6 +5250,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2070_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:624px;
+  height:915px;
 }
 #u2070_text {
   border-width:0px;
@@ -5184,14 +5273,6 @@
   width:0px;
   height:0px;
 }
-#u2072_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:68px;
-  height:68px;
-}
 #u2072 {
   border-width:0px;
   position:absolute;
@@ -5200,6 +5281,7 @@
   width:68px;
   height:68px;
   display:flex;
+  transition:none;
 }
 #u2072 .text {
   position:absolute;
@@ -5207,6 +5289,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2072_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:68px;
+  height:68px;
 }
 #u2072_text {
   border-width:0px;
@@ -5222,14 +5312,6 @@
   width:0px;
   height:0px;
 }
-#u2074_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:234px;
-  height:51px;
-}
 #u2074 {
   border-width:0px;
   position:absolute;
@@ -5238,6 +5320,7 @@
   width:234px;
   height:51px;
   display:flex;
+  transition:none;
 }
 #u2074 .text {
   position:absolute;
@@ -5246,19 +5329,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2074_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:234px;
+  height:51px;
+}
 #u2074_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2075_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:60px;
-  height:60px;
 }
 #u2075 {
   border-width:0px;
@@ -5268,6 +5351,7 @@
   width:60px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2075 .text {
   position:absolute;
@@ -5275,6 +5359,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2075_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:60px;
+  height:60px;
 }
 #u2075_text {
   border-width:0px;
@@ -5291,12 +5383,10 @@
   height:24px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -5310,7 +5400,9 @@
   width:112px;
   height:24px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -5336,14 +5428,6 @@
   width:0px;
   height:0px;
 }
-#u2078_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:234px;
-  height:51px;
-}
 #u2078 {
   border-width:0px;
   position:absolute;
@@ -5352,6 +5436,7 @@
   width:234px;
   height:51px;
   display:flex;
+  transition:none;
 }
 #u2078 .text {
   position:absolute;
@@ -5360,19 +5445,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2078_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:234px;
+  height:51px;
+}
 #u2078_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2079_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:60px;
-  height:60px;
 }
 #u2079 {
   border-width:0px;
@@ -5382,6 +5467,7 @@
   width:60px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2079 .text {
   position:absolute;
@@ -5389,6 +5475,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2079_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:60px;
+  height:60px;
 }
 #u2079_text {
   border-width:0px;
@@ -5405,12 +5499,10 @@
   height:24px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -5424,7 +5516,9 @@
   width:112px;
   height:24px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -5474,14 +5568,6 @@
   width:0px;
   height:0px;
 }
-#u2085_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:56px;
-  height:188px;
-}
 #u2085 {
   border-width:0px;
   position:absolute;
@@ -5490,6 +5576,7 @@
   width:56px;
   height:188px;
   display:flex;
+  transition:none;
 }
 #u2085 .text {
   position:absolute;
@@ -5497,6 +5584,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2085_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:56px;
+  height:188px;
 }
 #u2085_text {
   border-width:0px;
@@ -5513,12 +5608,10 @@
   height:54px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -5531,7 +5624,9 @@
   width:25px;
   height:54px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -5556,14 +5651,6 @@
   width:0px;
   height:0px;
 }
-#u2088_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:72px;
-  height:188px;
-}
 #u2088 {
   border-width:0px;
   position:absolute;
@@ -5572,6 +5659,7 @@
   width:72px;
   height:188px;
   display:flex;
+  transition:none;
 }
 #u2088 .text {
   position:absolute;
@@ -5580,19 +5668,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2088_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:72px;
+  height:188px;
+}
 #u2088_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2089_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:56px;
-  height:188px;
 }
 #u2089 {
   border-width:0px;
@@ -5602,6 +5690,7 @@
   width:56px;
   height:188px;
   display:flex;
+  transition:none;
 }
 #u2089 .text {
   position:absolute;
@@ -5609,6 +5698,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2089_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:56px;
+  height:188px;
 }
 #u2089_text {
   border-width:0px;
@@ -5625,12 +5722,10 @@
   height:54px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#F2F2F2;
@@ -5643,7 +5738,9 @@
   width:25px;
   height:54px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#F2F2F2;
@@ -5668,14 +5765,6 @@
   width:0px;
   height:0px;
 }
-#u2092_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:600px;
-  height:9px;
-}
 #u2092 {
   border-width:0px;
   position:absolute;
@@ -5684,6 +5773,7 @@
   width:600px;
   height:9px;
   display:flex;
+  transition:none;
 }
 #u2092 .text {
   position:absolute;
@@ -5691,6 +5781,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2092_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:600px;
+  height:9px;
 }
 #u2092_text {
   border-width:0px;
@@ -5706,14 +5804,6 @@
   width:0px;
   height:0px;
 }
-#u2094_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:40px;
-  height:40px;
-}
 #u2094 {
   border-width:0px;
   position:absolute;
@@ -5722,6 +5812,7 @@
   width:40px;
   height:40px;
   display:flex;
+  transition:none;
 }
 #u2094 .text {
   position:absolute;
@@ -5729,6 +5820,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2094_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:40px;
+  height:40px;
 }
 #u2094_text {
   border-width:0px;
@@ -5745,11 +5844,9 @@
   height:35px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -5762,6 +5859,8 @@
   width:96px;
   height:35px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -5794,12 +5893,10 @@
   width:64px;
   height:50px;
   background:inherit;
-  background-color:rgba(51, 51, 51, 0.192156862745098);
-  border:none;
+  background-color:rgba(51, 51, 51, 0.19215686274509805);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2097 {
   border-width:0px;
@@ -5809,6 +5906,8 @@
   width:64px;
   height:50px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2097 .text {
   position:absolute;
@@ -5823,14 +5922,6 @@
   text-transform:none;
   visibility:hidden;
 }
-#u2098_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:35px;
-  height:34px;
-}
 #u2098 {
   border-width:0px;
   position:absolute;
@@ -5839,6 +5930,7 @@
   width:35px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u2098 .text {
   position:absolute;
@@ -5846,6 +5938,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2098_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:35px;
+  height:34px;
 }
 #u2098_text {
   border-width:0px;
@@ -5861,14 +5961,6 @@
   width:0px;
   height:0px;
 }
-#u2100_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:76px;
-}
 #u2100 {
   border-width:0px;
   position:absolute;
@@ -5877,6 +5969,7 @@
   width:193px;
   height:76px;
   display:flex;
+  transition:none;
 }
 #u2100 .text {
   position:absolute;
@@ -5885,19 +5978,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2100_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:76px;
+}
 #u2100_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2101_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:4px;
-  height:41px;
 }
 #u2101 {
   border-width:0px;
@@ -5907,6 +6000,7 @@
   width:4px;
   height:41px;
   display:flex;
+  transition:none;
 }
 #u2101 .text {
   position:absolute;
@@ -5915,19 +6009,19 @@
   box-sizing:border-box;
   width:100%;
 }
-#u2101_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-  visibility:hidden;
-}
-#u2102_img {
+#u2101_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:4px;
   height:41px;
+}
+#u2101_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
 }
 #u2102 {
   border-width:0px;
@@ -5937,6 +6031,7 @@
   width:4px;
   height:41px;
   display:flex;
+  transition:none;
 }
 #u2102 .text {
   position:absolute;
@@ -5944,6 +6039,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2102_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:4px;
+  height:41px;
 }
 #u2102_text {
   border-width:0px;
@@ -5960,12 +6063,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#555555;
@@ -5978,7 +6079,9 @@
   width:49px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#555555;
@@ -6004,12 +6107,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -6022,7 +6123,9 @@
   width:49px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -6048,12 +6151,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -6066,7 +6167,9 @@
   width:49px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#7F7F7F;
@@ -6107,14 +6210,6 @@
   width:0px;
   height:0px;
 }
-#u2109_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u2109 {
   border-width:0px;
   position:absolute;
@@ -6123,6 +6218,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u2109 .text {
   position:absolute;
@@ -6131,19 +6227,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2109_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u2109_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2110_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u2110 {
   border-width:0px;
@@ -6153,6 +6249,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u2110 .text {
   position:absolute;
@@ -6161,19 +6258,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2110_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u2110_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2111_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u2111 {
   border-width:0px;
@@ -6183,6 +6280,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2111 .text {
   position:absolute;
@@ -6191,19 +6289,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2111_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u2111_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2112_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u2112 {
   border-width:0px;
@@ -6213,6 +6311,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u2112 .text {
   position:absolute;
@@ -6220,6 +6319,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2112_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u2112_text {
   border-width:0px;
@@ -6236,12 +6343,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -6254,7 +6359,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -6271,14 +6378,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2114_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
-}
 #u2114 {
   border-width:0px;
   position:absolute;
@@ -6287,6 +6386,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u2114 .text {
   position:absolute;
@@ -6294,6 +6394,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2114_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u2114_text {
   border-width:0px;
@@ -6309,14 +6417,6 @@
   width:0px;
   height:0px;
 }
-#u2116_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:45px;
-  height:145px;
-}
 #u2116 {
   border-width:0px;
   position:absolute;
@@ -6325,6 +6425,7 @@
   width:45px;
   height:145px;
   display:flex;
+  transition:none;
 }
 #u2116 .text {
   position:absolute;
@@ -6332,6 +6433,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2116_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:45px;
+  height:145px;
 }
 #u2116_text {
   border-width:0px;
@@ -6348,11 +6457,9 @@
   height:81px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -6366,6 +6473,8 @@
   width:24px;
   height:81px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -6383,14 +6492,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2118_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:192px;
-  height:256px;
-}
 #u2118 {
   border-width:0px;
   position:absolute;
@@ -6399,6 +6500,7 @@
   width:192px;
   height:256px;
   display:flex;
+  transition:none;
 }
 #u2118 .text {
   position:absolute;
@@ -6406,6 +6508,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2118_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:192px;
+  height:256px;
 }
 #u2118_text {
   border-width:0px;
@@ -6421,14 +6531,6 @@
   width:0px;
   height:0px;
 }
-#u2120_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u2120 {
   border-width:0px;
   position:absolute;
@@ -6437,6 +6539,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u2120 .text {
   position:absolute;
@@ -6445,19 +6548,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2120_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u2120_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2121_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u2121 {
   border-width:0px;
@@ -6467,6 +6570,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u2121 .text {
   position:absolute;
@@ -6475,19 +6579,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2121_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u2121_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2122_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u2122 {
   border-width:0px;
@@ -6497,6 +6601,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2122 .text {
   position:absolute;
@@ -6505,19 +6610,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2122_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u2122_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2123_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u2123 {
   border-width:0px;
@@ -6527,6 +6632,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u2123 .text {
   position:absolute;
@@ -6534,6 +6640,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2123_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u2123_text {
   border-width:0px;
@@ -6550,12 +6664,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -6568,7 +6680,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -6585,14 +6699,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2125_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
-}
 #u2125 {
   border-width:0px;
   position:absolute;
@@ -6601,6 +6707,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u2125 .text {
   position:absolute;
@@ -6608,6 +6715,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2125_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u2125_text {
   border-width:0px;
@@ -6623,14 +6738,6 @@
   width:0px;
   height:0px;
 }
-#u2127_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u2127 {
   border-width:0px;
   position:absolute;
@@ -6639,6 +6746,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u2127 .text {
   position:absolute;
@@ -6647,19 +6755,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2127_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u2127_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2128_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u2128 {
   border-width:0px;
@@ -6669,6 +6777,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u2128 .text {
   position:absolute;
@@ -6677,19 +6786,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2128_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u2128_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2129_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u2129 {
   border-width:0px;
@@ -6699,6 +6808,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2129 .text {
   position:absolute;
@@ -6707,19 +6817,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2129_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u2129_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2130_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u2130 {
   border-width:0px;
@@ -6729,6 +6839,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u2130 .text {
   position:absolute;
@@ -6736,6 +6847,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2130_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u2130_text {
   border-width:0px;
@@ -6752,12 +6871,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -6770,7 +6887,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -6787,14 +6906,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2132_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
-}
 #u2132 {
   border-width:0px;
   position:absolute;
@@ -6803,6 +6914,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u2132 .text {
   position:absolute;
@@ -6810,6 +6922,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2132_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u2132_text {
   border-width:0px;
@@ -6825,14 +6945,6 @@
   width:0px;
   height:0px;
 }
-#u2134_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u2134 {
   border-width:0px;
   position:absolute;
@@ -6841,6 +6953,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u2134 .text {
   position:absolute;
@@ -6849,19 +6962,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2134_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u2134_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2135_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u2135 {
   border-width:0px;
@@ -6871,6 +6984,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u2135 .text {
   position:absolute;
@@ -6879,19 +6993,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2135_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u2135_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2136_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u2136 {
   border-width:0px;
@@ -6901,6 +7015,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2136 .text {
   position:absolute;
@@ -6909,19 +7024,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2136_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u2136_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2137_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u2137 {
   border-width:0px;
@@ -6931,6 +7046,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u2137 .text {
   position:absolute;
@@ -6938,6 +7054,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2137_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u2137_text {
   border-width:0px;
@@ -6954,12 +7078,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -6972,7 +7094,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -6989,14 +7113,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2139_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:181px;
-  height:238px;
-}
 #u2139 {
   border-width:0px;
   position:absolute;
@@ -7006,6 +7122,7 @@
   height:238px;
   display:flex;
   opacity:0.58;
+  transition:none;
 }
 #u2139 .text {
   position:absolute;
@@ -7014,19 +7131,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2139_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:238px;
+}
 #u2139_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2140_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
 }
 #u2140 {
   border-width:0px;
@@ -7036,6 +7153,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u2140 .text {
   position:absolute;
@@ -7044,19 +7162,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2140_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
+}
 #u2140_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2141_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
 }
 #u2141 {
   border-width:0px;
@@ -7066,6 +7184,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u2141 .text {
   position:absolute;
@@ -7073,6 +7192,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2141_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u2141_text {
   border-width:0px;
@@ -7088,14 +7215,6 @@
   width:0px;
   height:0px;
 }
-#u2143_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u2143 {
   border-width:0px;
   position:absolute;
@@ -7104,6 +7223,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u2143 .text {
   position:absolute;
@@ -7112,19 +7232,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2143_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u2143_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2144_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u2144 {
   border-width:0px;
@@ -7134,6 +7254,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u2144 .text {
   position:absolute;
@@ -7142,19 +7263,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2144_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u2144_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2145_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u2145 {
   border-width:0px;
@@ -7164,6 +7285,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2145 .text {
   position:absolute;
@@ -7172,19 +7294,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2145_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u2145_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2146_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u2146 {
   border-width:0px;
@@ -7194,6 +7316,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u2146 .text {
   position:absolute;
@@ -7201,6 +7324,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2146_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u2146_text {
   border-width:0px;
@@ -7217,12 +7348,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -7235,7 +7364,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -7252,14 +7383,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2148_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:181px;
-  height:238px;
-}
 #u2148 {
   border-width:0px;
   position:absolute;
@@ -7269,6 +7392,7 @@
   height:238px;
   display:flex;
   opacity:0.58;
+  transition:none;
 }
 #u2148 .text {
   position:absolute;
@@ -7277,19 +7401,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2148_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:238px;
+}
 #u2148_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2149_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
 }
 #u2149 {
   border-width:0px;
@@ -7299,6 +7423,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u2149 .text {
   position:absolute;
@@ -7307,19 +7432,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2149_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
+}
 #u2149_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2150_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
 }
 #u2150 {
   border-width:0px;
@@ -7329,6 +7454,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u2150 .text {
   position:absolute;
@@ -7336,6 +7462,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2150_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u2150_text {
   border-width:0px;
@@ -7351,14 +7485,6 @@
   width:0px;
   height:0px;
 }
-#u2152_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u2152 {
   border-width:0px;
   position:absolute;
@@ -7367,6 +7493,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u2152 .text {
   position:absolute;
@@ -7375,19 +7502,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2152_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u2152_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2153_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u2153 {
   border-width:0px;
@@ -7397,6 +7524,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u2153 .text {
   position:absolute;
@@ -7405,19 +7533,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2153_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u2153_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2154_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u2154 {
   border-width:0px;
@@ -7427,6 +7555,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2154 .text {
   position:absolute;
@@ -7435,19 +7564,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2154_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u2154_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2155_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u2155 {
   border-width:0px;
@@ -7457,6 +7586,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u2155 .text {
   position:absolute;
@@ -7464,6 +7594,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2155_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u2155_text {
   border-width:0px;
@@ -7480,12 +7618,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -7498,7 +7634,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -7515,14 +7653,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2157_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:181px;
-  height:238px;
-}
 #u2157 {
   border-width:0px;
   position:absolute;
@@ -7532,6 +7662,7 @@
   height:238px;
   display:flex;
   opacity:0.58;
+  transition:none;
 }
 #u2157 .text {
   position:absolute;
@@ -7540,19 +7671,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2157_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:238px;
+}
 #u2157_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2158_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
 }
 #u2158 {
   border-width:0px;
@@ -7562,6 +7693,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u2158 .text {
   position:absolute;
@@ -7570,19 +7702,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2158_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
+}
 #u2158_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2159_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
 }
 #u2159 {
   border-width:0px;
@@ -7592,6 +7724,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u2159 .text {
   position:absolute;
@@ -7599,6 +7732,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2159_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u2159_text {
   border-width:0px;
@@ -7614,14 +7755,6 @@
   width:0px;
   height:0px;
 }
-#u2161_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:187px;
-  height:238px;
-}
 #u2161 {
   border-width:0px;
   position:absolute;
@@ -7630,6 +7763,7 @@
   width:187px;
   height:238px;
   display:flex;
+  transition:none;
 }
 #u2161 .text {
   position:absolute;
@@ -7638,19 +7772,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2161_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:238px;
+}
 #u2161_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2162_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:141px;
-  height:232px;
 }
 #u2162 {
   border-width:0px;
@@ -7660,6 +7794,7 @@
   width:141px;
   height:232px;
   display:flex;
+  transition:none;
 }
 #u2162 .text {
   position:absolute;
@@ -7668,19 +7803,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2162_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:141px;
+  height:232px;
+}
 #u2162_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2163_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:178px;
-  height:60px;
 }
 #u2163 {
   border-width:0px;
@@ -7690,6 +7825,7 @@
   width:178px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2163 .text {
   position:absolute;
@@ -7698,19 +7834,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2163_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:60px;
+}
 #u2163_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2164_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:193px;
-  height:245px;
 }
 #u2164 {
   border-width:0px;
@@ -7720,6 +7856,7 @@
   width:193px;
   height:245px;
   display:flex;
+  transition:none;
 }
 #u2164 .text {
   position:absolute;
@@ -7727,6 +7864,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2164_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:193px;
+  height:245px;
 }
 #u2164_text {
   border-width:0px;
@@ -7743,12 +7888,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -7761,7 +7904,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -7778,14 +7923,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2166_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:181px;
-  height:238px;
-}
 #u2166 {
   border-width:0px;
   position:absolute;
@@ -7795,6 +7932,7 @@
   height:238px;
   display:flex;
   opacity:0.58;
+  transition:none;
 }
 #u2166 .text {
   position:absolute;
@@ -7803,19 +7941,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2166_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:181px;
+  height:238px;
+}
 #u2166_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2167_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:27px;
-  height:34px;
 }
 #u2167 {
   border-width:0px;
@@ -7825,6 +7963,7 @@
   width:27px;
   height:34px;
   display:flex;
+  transition:none;
 }
 #u2167 .text {
   position:absolute;
@@ -7833,19 +7972,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2167_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:27px;
+  height:34px;
+}
 #u2167_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2168_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:25px;
-  height:25px;
 }
 #u2168 {
   border-width:0px;
@@ -7855,6 +7994,7 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
 }
 #u2168 .text {
   position:absolute;
@@ -7862,6 +8002,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2168_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:25px;
+  height:25px;
 }
 #u2168_text {
   border-width:0px;
@@ -7885,14 +8033,6 @@
   width:0px;
   height:0px;
 }
-#u2171_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:75px;
-}
 #u2171 {
   border-width:0px;
   position:absolute;
@@ -7901,6 +8041,7 @@
   width:80px;
   height:75px;
   display:flex;
+  transition:none;
 }
 #u2171 .text {
   position:absolute;
@@ -7908,6 +8049,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2171_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:75px;
 }
 #u2171_text {
   border-width:0px;
@@ -7924,11 +8073,9 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -7941,6 +8088,8 @@
   width:48px;
   height:27px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -7965,14 +8114,6 @@
   width:0px;
   height:0px;
 }
-#u2174_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:75px;
-}
 #u2174 {
   border-width:0px;
   position:absolute;
@@ -7981,6 +8122,7 @@
   width:80px;
   height:75px;
   display:flex;
+  transition:none;
   color:#AAAAAA;
 }
 #u2174 .text {
@@ -7989,6 +8131,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2174_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:75px;
 }
 #u2174_text {
   border-width:0px;
@@ -8005,11 +8155,9 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -8023,6 +8171,8 @@
   width:48px;
   height:27px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -8048,14 +8198,6 @@
   width:0px;
   height:0px;
 }
-#u2177_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:76px;
-}
 #u2177 {
   border-width:0px;
   position:absolute;
@@ -8064,6 +8206,7 @@
   width:80px;
   height:76px;
   display:flex;
+  transition:none;
 }
 #u2177 .text {
   position:absolute;
@@ -8071,6 +8214,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2177_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:76px;
 }
 #u2177_text {
   border-width:0px;
@@ -8087,11 +8238,9 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -8105,6 +8254,8 @@
   width:48px;
   height:27px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -8130,14 +8281,6 @@
   width:0px;
   height:0px;
 }
-#u2180_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:75px;
-}
 #u2180 {
   border-width:0px;
   position:absolute;
@@ -8146,6 +8289,7 @@
   width:80px;
   height:75px;
   display:flex;
+  transition:none;
 }
 #u2180 .text {
   position:absolute;
@@ -8153,6 +8297,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2180_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:75px;
 }
 #u2180_text {
   border-width:0px;
@@ -8169,11 +8321,9 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -8187,6 +8337,8 @@
   width:48px;
   height:27px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -8237,12 +8389,10 @@
   height:76px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:70px;
@@ -8255,7 +8405,9 @@
   width:286px;
   height:76px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:70px;
@@ -8281,12 +8433,10 @@
   height:35px;
   background:inherit;
   background-color:rgba(215, 215, 215, 1);
-  border:none;
   border-radius:10px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:30px;
@@ -8299,7 +8449,9 @@
   width:35px;
   height:35px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:30px;
@@ -8324,14 +8476,6 @@
   width:0px;
   height:0px;
 }
-#u2188_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:230px;
-  height:48px;
-}
 #u2188 {
   border-width:0px;
   position:absolute;
@@ -8340,6 +8484,7 @@
   width:230px;
   height:48px;
   display:flex;
+  transition:none;
 }
 #u2188 .text {
   position:absolute;
@@ -8347,6 +8492,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2188_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:230px;
+  height:48px;
 }
 #u2188_text {
   border-width:0px;
@@ -8363,12 +8516,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#F2F2F2;
@@ -8381,7 +8532,9 @@
   width:129px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   color:#F2F2F2;
@@ -8406,14 +8559,6 @@
   width:0px;
   height:0px;
 }
-#u2191_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:363px;
-  height:131px;
-}
 #u2191 {
   border-width:0px;
   position:absolute;
@@ -8422,6 +8567,7 @@
   width:363px;
   height:131px;
   display:flex;
+  transition:none;
 }
 #u2191 .text {
   position:absolute;
@@ -8430,19 +8576,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2191_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:363px;
+  height:131px;
+}
 #u2191_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2192_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:394px;
-  height:132px;
 }
 #u2192 {
   border-width:0px;
@@ -8452,7 +8598,8 @@
   width:394px;
   height:132px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8464,6 +8611,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2192_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:394px;
+  height:132px;
 }
 #u2192_text {
   border-width:0px;
@@ -8480,12 +8635,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -8499,7 +8652,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -8520,14 +8675,6 @@
   -moz-text-shadow:1px 1px 5px rgba(0, 0, 0, 0.996078431372549);
   text-transform:none;
 }
-#u2194_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:81px;
-  height:65px;
-}
 #u2194 {
   border-width:0px;
   position:absolute;
@@ -8536,7 +8683,8 @@
   width:81px;
   height:65px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8548,6 +8696,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2194_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:81px;
+  height:65px;
 }
 #u2194_text {
   border-width:0px;
@@ -8564,12 +8720,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -8583,7 +8737,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -8610,12 +8766,10 @@
   height:35px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -8627,7 +8781,9 @@
   width:179px;
   height:35px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -8651,14 +8807,6 @@
   width:0px;
   height:0px;
 }
-#u2198_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:394px;
-  height:111px;
-}
 #u2198 {
   border-width:0px;
   position:absolute;
@@ -8667,6 +8815,7 @@
   width:394px;
   height:111px;
   display:flex;
+  transition:none;
 }
 #u2198 .text {
   position:absolute;
@@ -8674,6 +8823,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2198_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:394px;
+  height:111px;
 }
 #u2198_img.disabled {
 }
@@ -8694,12 +8851,10 @@
   height:59px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   text-align:center;
@@ -8712,7 +8867,9 @@
   width:279px;
   height:59px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   text-align:center;
@@ -8745,14 +8902,6 @@
   width:0px;
   height:0px;
 }
-#u2202_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:113px;
-  height:115px;
-}
 #u2202 {
   border-width:0px;
   position:absolute;
@@ -8761,6 +8910,7 @@
   width:113px;
   height:115px;
   display:flex;
+  transition:none;
 }
 #u2202 .text {
   position:absolute;
@@ -8769,19 +8919,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2202_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:115px;
+}
 #u2202_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2203_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:120px;
-  height:96px;
 }
 #u2203 {
   border-width:0px;
@@ -8791,6 +8941,7 @@
   width:120px;
   height:96px;
   display:flex;
+  transition:none;
 }
 #u2203 .text {
   position:absolute;
@@ -8798,6 +8949,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2203_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:120px;
+  height:96px;
 }
 #u2203_text {
   border-width:0px;
@@ -8813,14 +8972,6 @@
   width:0px;
   height:0px;
 }
-#u2205_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:116px;
-  height:116px;
-}
 #u2205 {
   border-width:0px;
   position:absolute;
@@ -8829,6 +8980,7 @@
   width:116px;
   height:116px;
   display:flex;
+  transition:none;
 }
 #u2205 .text {
   position:absolute;
@@ -8837,19 +8989,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2205_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:116px;
+  height:116px;
+}
 #u2205_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2206_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:118px;
-  height:118px;
 }
 #u2206 {
   border-width:0px;
@@ -8859,6 +9011,7 @@
   width:118px;
   height:118px;
   display:flex;
+  transition:none;
 }
 #u2206 .text {
   position:absolute;
@@ -8866,6 +9019,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2206_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:118px;
+  height:118px;
 }
 #u2206_img.selected {
 }
@@ -8886,11 +9047,9 @@
   height:25px;
   background:inherit;
   background-color:rgba(128, 128, 255, 0.8);
-  border:none;
   border-radius:10px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2207 {
   border-width:0px;
@@ -8900,6 +9059,8 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2207 .text {
   position:absolute;
@@ -8923,12 +9084,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -8942,7 +9101,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -8971,14 +9132,6 @@
   width:0px;
   height:0px;
 }
-#u2210_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:113px;
-  height:115px;
-}
 #u2210 {
   border-width:0px;
   position:absolute;
@@ -8987,6 +9140,7 @@
   width:113px;
   height:115px;
   display:flex;
+  transition:none;
 }
 #u2210 .text {
   position:absolute;
@@ -8995,19 +9149,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2210_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:115px;
+}
 #u2210_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2211_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:120px;
-  height:96px;
 }
 #u2211 {
   border-width:0px;
@@ -9017,6 +9171,7 @@
   width:120px;
   height:96px;
   display:flex;
+  transition:none;
 }
 #u2211 .text {
   position:absolute;
@@ -9024,6 +9179,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2211_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:120px;
+  height:96px;
 }
 #u2211_text {
   border-width:0px;
@@ -9039,14 +9202,6 @@
   width:0px;
   height:0px;
 }
-#u2213_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:116px;
-  height:116px;
-}
 #u2213 {
   border-width:0px;
   position:absolute;
@@ -9055,6 +9210,7 @@
   width:116px;
   height:116px;
   display:flex;
+  transition:none;
 }
 #u2213 .text {
   position:absolute;
@@ -9063,19 +9219,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2213_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:116px;
+  height:116px;
+}
 #u2213_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2214_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:118px;
-  height:118px;
 }
 #u2214 {
   border-width:0px;
@@ -9085,6 +9241,7 @@
   width:118px;
   height:118px;
   display:flex;
+  transition:none;
 }
 #u2214 .text {
   position:absolute;
@@ -9092,6 +9249,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2214_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:118px;
+  height:118px;
 }
 #u2214_img.selected {
 }
@@ -9112,11 +9277,9 @@
   height:25px;
   background:inherit;
   background-color:rgba(128, 128, 255, 0.8);
-  border:none;
   border-radius:10px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2215 {
   border-width:0px;
@@ -9126,6 +9289,8 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2215 .text {
   position:absolute;
@@ -9149,12 +9314,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -9168,7 +9331,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -9197,14 +9362,6 @@
   width:0px;
   height:0px;
 }
-#u2218_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:113px;
-  height:115px;
-}
 #u2218 {
   border-width:0px;
   position:absolute;
@@ -9213,6 +9370,7 @@
   width:113px;
   height:115px;
   display:flex;
+  transition:none;
 }
 #u2218 .text {
   position:absolute;
@@ -9221,19 +9379,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2218_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:113px;
+  height:115px;
+}
 #u2218_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2219_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:120px;
-  height:96px;
 }
 #u2219 {
   border-width:0px;
@@ -9243,6 +9401,7 @@
   width:120px;
   height:96px;
   display:flex;
+  transition:none;
 }
 #u2219 .text {
   position:absolute;
@@ -9250,6 +9409,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2219_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:120px;
+  height:96px;
 }
 #u2219_text {
   border-width:0px;
@@ -9265,14 +9432,6 @@
   width:0px;
   height:0px;
 }
-#u2221_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:116px;
-  height:116px;
-}
 #u2221 {
   border-width:0px;
   position:absolute;
@@ -9281,6 +9440,7 @@
   width:116px;
   height:116px;
   display:flex;
+  transition:none;
 }
 #u2221 .text {
   position:absolute;
@@ -9289,19 +9449,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2221_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:116px;
+  height:116px;
+}
 #u2221_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2222_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:118px;
-  height:118px;
 }
 #u2222 {
   border-width:0px;
@@ -9311,6 +9471,7 @@
   width:118px;
   height:118px;
   display:flex;
+  transition:none;
 }
 #u2222 .text {
   position:absolute;
@@ -9318,6 +9479,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2222_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:118px;
+  height:118px;
 }
 #u2222_img.selected {
 }
@@ -9338,11 +9507,9 @@
   height:25px;
   background:inherit;
   background-color:rgba(128, 128, 255, 0.8);
-  border:none;
   border-radius:10px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2223 {
   border-width:0px;
@@ -9352,6 +9519,8 @@
   width:25px;
   height:25px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2223 .text {
   position:absolute;
@@ -9366,14 +9535,6 @@
   text-transform:none;
   visibility:hidden;
 }
-#u2224_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:23px;
-  height:22px;
-}
 #u2224 {
   border-width:0px;
   position:absolute;
@@ -9382,6 +9543,7 @@
   width:23px;
   height:22px;
   display:flex;
+  transition:none;
 }
 #u2224 .text {
   position:absolute;
@@ -9389,6 +9551,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2224_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:23px;
+  height:22px;
 }
 #u2224_text {
   border-width:0px;
@@ -9405,12 +9575,10 @@
   height:30px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -9424,7 +9592,9 @@
   width:58px;
   height:30px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -9445,14 +9615,6 @@
   -moz-text-shadow:1px 1px 5px rgba(0, 0, 0, 0.996078431372549);
   text-transform:none;
 }
-#u2226_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:120px;
-  height:119px;
-}
 #u2226 {
   border-width:0px;
   position:absolute;
@@ -9461,6 +9623,7 @@
   width:120px;
   height:119px;
   display:flex;
+  transition:none;
 }
 #u2226 .text {
   position:absolute;
@@ -9468,6 +9631,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2226_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:120px;
+  height:119px;
 }
 #u2226_text {
   border-width:0px;
@@ -9483,14 +9654,6 @@
   width:0px;
   height:0px;
 }
-#u2228_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:451px;
-  height:74px;
-}
 #u2228 {
   border-width:0px;
   position:absolute;
@@ -9499,6 +9662,7 @@
   width:451px;
   height:74px;
   display:flex;
+  transition:none;
 }
 #u2228 .text {
   position:absolute;
@@ -9506,6 +9670,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2228_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:451px;
+  height:74px;
 }
 #u2228_text {
   border-width:0px;
@@ -9522,12 +9694,10 @@
   height:60px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -9542,7 +9712,9 @@
   width:127px;
   height:60px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -9561,14 +9733,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2230_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:78px;
-}
 #u2230 {
   border-width:0px;
   position:absolute;
@@ -9577,6 +9741,7 @@
   width:80px;
   height:78px;
   display:flex;
+  transition:none;
 }
 #u2230 .text {
   position:absolute;
@@ -9585,19 +9750,19 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2230_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:78px;
+}
 #u2230_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
-}
-#u2231_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:60px;
-  height:60px;
 }
 #u2231 {
   border-width:0px;
@@ -9607,6 +9772,7 @@
   width:60px;
   height:60px;
   display:flex;
+  transition:none;
 }
 #u2231 .text {
   position:absolute;
@@ -9614,6 +9780,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2231_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:60px;
+  height:60px;
 }
 #u2231_text {
   border-width:0px;

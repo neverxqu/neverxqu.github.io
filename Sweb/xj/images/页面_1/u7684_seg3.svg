@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="36px" preserveAspectRatio="xMinYMid meet" viewBox="529 148 36 34" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 401 240.5  L 472 240.5  A 5 5 0 0 0 477.5 235.5 L 477.5 170  A 5 5 0 0 1 482.5 165.5 L 539 165.5  " stroke-width="3" stroke-dasharray="0" stroke="rgba(236, 128, 141, 1)" fill="none" class="stroke" />
+  <path d="M 537 177  L 553 165.5  L 537 154  L 537 177  Z " fill-rule="nonzero" fill="rgba(236, 128, 141, 1)" stroke="none" class="fill" />
+</svg>

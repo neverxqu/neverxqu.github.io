@@ -2,7 +2,7 @@
   margin:0px;
   background-image:none;
   position:relative;
-  left:0px;
+  left:-0px;
   width:1994px;
   margin-left:auto;
   margin-right:auto;
@@ -30,9 +30,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -45,6 +44,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -70,12 +71,10 @@
   height:35px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -87,7 +86,9 @@
   width:131px;
   height:35px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -112,12 +113,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -129,7 +128,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -154,12 +155,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -171,7 +170,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -196,12 +197,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -213,7 +212,9 @@
   width:98px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -238,12 +239,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -255,7 +254,9 @@
   width:49px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -280,12 +281,10 @@
   height:27px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -297,7 +296,9 @@
   width:49px;
   height:27px;
   display:flex;
-  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体 Regular', '方正北魏楷书简体', sans-serif;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:'方正北魏楷书简体 Bold', '方正北魏楷书简体', '方正北魏楷书简体', sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -313,14 +314,6 @@
   white-space:nowrap;
   text-transform:none;
 }
-#u2239_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:50px;
-  height:50px;
-}
 #u2239 {
   border-width:0px;
   position:absolute;
@@ -329,6 +322,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -340,6 +334,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2239_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:50px;
+  height:50px;
 }
 #u2239_text {
   border-width:0px;
@@ -360,9 +362,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -375,6 +376,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -391,14 +394,6 @@
   word-wrap:break-word;
   text-transform:none;
 }
-#u2241_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:50px;
-  height:50px;
-}
 #u2241 {
   border-width:0px;
   position:absolute;
@@ -407,6 +402,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -418,6 +414,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2241_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:50px;
+  height:50px;
 }
 #u2241_text {
   border-width:0px;
@@ -438,9 +442,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -453,6 +456,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -469,14 +474,6 @@
   word-wrap:break-word;
   text-transform:none;
 }
-#u2243_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:50px;
-  height:50px;
-}
 #u2243 {
   border-width:0px;
   position:absolute;
@@ -485,6 +482,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -496,6 +494,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2243_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:50px;
+  height:50px;
 }
 #u2243_text {
   border-width:0px;
@@ -516,9 +522,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -531,6 +536,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -547,14 +554,6 @@
   word-wrap:break-word;
   text-transform:none;
 }
-#u2245_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:50px;
-  height:50px;
-}
 #u2245 {
   border-width:0px;
   position:absolute;
@@ -563,6 +562,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -574,6 +574,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2245_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:50px;
+  height:50px;
 }
 #u2245_text {
   border-width:0px;
@@ -594,9 +602,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -609,6 +616,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -639,9 +648,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -654,6 +662,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -684,9 +694,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -699,6 +708,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -729,9 +740,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -744,6 +754,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -774,9 +786,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -789,6 +800,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -819,9 +832,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -834,6 +846,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -864,9 +878,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -879,6 +892,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -895,14 +910,6 @@
   word-wrap:break-word;
   text-transform:none;
 }
-#u2253_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:50px;
-  height:50px;
-}
 #u2253 {
   border-width:0px;
   position:absolute;
@@ -911,6 +918,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -923,18 +931,18 @@
   box-sizing:border-box;
   width:100%;
 }
-#u2253_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-}
-#u2254_img {
+#u2253_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:50px;
   height:50px;
+}
+#u2253_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
 }
 #u2254 {
   border-width:0px;
@@ -944,6 +952,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -956,18 +965,18 @@
   box-sizing:border-box;
   width:100%;
 }
-#u2254_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-}
-#u2255_img {
+#u2254_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:50px;
   height:50px;
+}
+#u2254_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
 }
 #u2255 {
   border-width:0px;
@@ -977,6 +986,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -989,18 +999,18 @@
   box-sizing:border-box;
   width:100%;
 }
-#u2255_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-}
-#u2256_img {
+#u2255_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:50px;
   height:50px;
+}
+#u2255_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
 }
 #u2256 {
   border-width:0px;
@@ -1010,6 +1020,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1022,18 +1033,18 @@
   box-sizing:border-box;
   width:100%;
 }
-#u2256_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-}
-#u2257_img {
+#u2256_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:50px;
   height:50px;
+}
+#u2256_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
 }
 #u2257 {
   border-width:0px;
@@ -1043,6 +1054,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1055,18 +1067,18 @@
   box-sizing:border-box;
   width:100%;
 }
-#u2257_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-}
-#u2258_img {
+#u2257_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:50px;
   height:50px;
+}
+#u2257_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
 }
 #u2258 {
   border-width:0px;
@@ -1076,6 +1088,7 @@
   width:50px;
   height:50px;
   display:flex;
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1087,6 +1100,14 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u2258_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:50px;
+  height:50px;
 }
 #u2258_text {
   border-width:0px;
@@ -1107,9 +1128,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1122,6 +1142,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1152,9 +1174,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1167,6 +1188,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1197,9 +1220,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1212,6 +1234,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1242,9 +1266,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1257,6 +1280,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1287,9 +1312,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1302,6 +1326,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1332,9 +1358,8 @@
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1347,6 +1372,8 @@
   width:101px;
   height:44px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
   font-family:'方正北魏楷书简体', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -1372,11 +1399,9 @@
   height:42px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
-  border:none;
   border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  filter:drop-shadow(none);
+  transition:none;
 }
 #u2265 {
   border-width:0px;
@@ -1386,6 +1411,8 @@
   width:300px;
   height:42px;
   display:flex;
+  transition:none;
+  transform-origin:50% 50%;
 }
 #u2265 .text {
   position:absolute;

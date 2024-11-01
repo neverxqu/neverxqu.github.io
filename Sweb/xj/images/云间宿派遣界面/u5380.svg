@@ -1,18 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="98px" height="55px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="52px" height="52px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter x="2332px" y="2225px" width="98px" height="55px" filterUnits="userSpaceOnUse" id="filter868">
-      <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget869">
-      <path d="M 2332 2225  L 2410 2225  L 2410 2260  L 2332 2260  L 2332 2225  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" fill-opacity="0" />
-    </g>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="Clip465">
+      <path d="M 0 32  L 0 0  L 32 0  L 32 32  L 0 32  Z " fill-rule="evenodd" />
+    </mask>
   </defs>
-  <g transform="matrix(1 0 0 1 -2332 -2225 )">
-    <use xlink:href="#widget869" filter="url(#filter868)" />
-    <use xlink:href="#widget869" />
+  <g transform="matrix(1 0 0 1 -3020 -1683 )">
+    <path d="M 0 32  L 0 0  L 32 0  L 32 32  L 0 32  Z " fill-rule="nonzero" fill="rgba(242, 242, 242, 1)" stroke="none" transform="matrix(1 0 0 1 3020 1683 )" class="fill" />
+    <path d="M 0 32  L 0 0  L 32 0  L 32 32  L 0 32  Z " stroke-width="2" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 3020 1683 )" class="stroke" mask="url(#Clip465)" />
+    <path d="M 31.646446609406727 0.35355339059327373  L 0.35355339059327373 31.646446609406727  M 0.35355339059327373 0.35355339059327373  L 31.646446609406727 31.646446609406727  " stroke-width="1" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 3020 1683 )" class="stroke" />
   </g>
+  <style>svg { filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.34901960784313724)); }</style>
 </svg>

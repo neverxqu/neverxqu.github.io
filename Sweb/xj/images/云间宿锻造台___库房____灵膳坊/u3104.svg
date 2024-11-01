@@ -1,18 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="67px" height="61px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="41px" height="41px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter x="836px" y="970px" width="67px" height="61px" filterUnits="userSpaceOnUse" id="filter765">
-      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget766">
-      <path d="M 0 51  L 0 0  L 57 0  L 57 51  C 57 51  39.291999999998 35.1900000000071  27.7399999999998 36.2100000000048  C 16.1880000000017 37.2300000000024  0 51  0 51  Z " fill-rule="nonzero" fill="#d7d7d7" stroke="none" transform="matrix(1 0 0 1 836 970 )" />
-    </g>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="Clip368">
+      <path d="M 0 20.5  C 0 9.02  9.02 0  20.5 0  C 31.98 0  41 9.02  41 20.5  C 41 31.98  31.98 41  20.5 41  C 9.02 41  0 31.98  0 20.5  Z " fill-rule="evenodd" />
+    </mask>
   </defs>
-  <g transform="matrix(1 0 0 1 -836 -970 )">
-    <use xlink:href="#widget766" filter="url(#filter765)" />
-    <use xlink:href="#widget766" />
+  <g transform="matrix(1 0 0 1 -244 -932 )">
+    <path d="M 0 20.5  C 0 9.02  9.02 0  20.5 0  C 31.98 0  41 9.02  41 20.5  C 41 31.98  31.98 41  20.5 41  C 9.02 41  0 31.98  0 20.5  Z " fill-rule="nonzero" fill="rgba(127, 127, 127, 1)" stroke="none" transform="matrix(1 0 0 1 244 932 )" class="fill" />
+    <path d="M 0 20.5  C 0 9.02  9.02 0  20.5 0  C 31.98 0  41 9.02  41 20.5  C 41 31.98  31.98 41  20.5 41  C 9.02 41  0 31.98  0 20.5  Z " stroke-width="2" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 244 932 )" class="stroke" mask="url(#Clip368)" />
   </g>
 </svg>

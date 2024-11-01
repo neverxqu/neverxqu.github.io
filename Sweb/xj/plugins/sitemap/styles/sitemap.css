@@ -46,13 +46,13 @@ ul.sitemapTree {
 }
 
 .pageSwapInstructions {
-    width: 129px;
     font-size: 12px;
     text-align: center;
-    color: #8c8c8c;
+    color: #718096;
     margin: 0 auto;
     padding: 12px 0px;
     line-height: 20px;
+    opacity: .8;
 }
 
 .sitemapMinus, .sitemapPlus {
@@ -120,8 +120,8 @@ ul.sitemapTree {
 
 .sitemapPageName {
     font-size: 14px;
-    line-height: 1.93;
-    color: #4a4a4a;
+    line-height: 2.1;
+    /*color: #4a4a4a;*/
 }
 
 .sitemapPageName.mobileText {
@@ -142,7 +142,14 @@ ul.sitemapTree {
 }
 
 .sitemapHighlight {
-    background-color: #e6e6e6;
+    background-color: #BFDBFE66 !important;
+}
+
+.sitemapHover {
+}
+
+.sitemapHover:hover {
+    background-color: #F5FAFE;
 }
 
 .sitemapGreyedName
@@ -150,14 +157,8 @@ ul.sitemapTree {
 	color: #AAA;
 }
 
-.sitemapPluginNameHeader {
-    margin: 13px 9px 5px 9px;
-    font-size: 14px;
-    color: #444444;
-}
-
 .sitemapHeader {
-    padding-top: 7px;
+    padding: 20px 0 0 7px;
 }
 
 .mobileMode .sitemapHeader {
@@ -166,9 +167,26 @@ ul.sitemapTree {
 
 .sitemapToolbar {
     margin: 0px 3px 0px 5px;
+}
+
+.toolbarRow {
+    margin-bottom: 3px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+#expandCollapseAll {
+    align-self: center;
+    margin: 0 4px 0 8px;
+    font-size: 14px;
+    text-align: end;
+    user-select: none;
+    cursor: pointer;
+}
+
+#expandCollapseAll:hover {
+    color: #2563EB;
 }
 
 .sitemapToolbarButton {
@@ -181,7 +199,7 @@ ul.sitemapTree {
 
 .hashover .sitemapToolbarButton:hover {
     border-radius: 3px;
-    background-color: #e6e6e6 !important;
+    background-color: #E5E7EB66 !important;
 }
 
 .sitemapToolbarButton.sitemapToolbarButtonSelected, .sitemapToolbarButton.sitemapToolbarButtonSelected:hover{
@@ -205,12 +223,12 @@ ul.sitemapTree {
     object-fit: contain;
     background: url('images/search_on.svg') no-repeat center center, linear-gradient(transparent,transparent);
     vertical-align: bottom;
-    padding: 5px 4px 5px 4px;
+    padding: 5px 4px 5px 14px;
     display: inline-block;
 }
 
 #searchIcon.sitemapToolbarButtonSelected {
-    padding: 5px 3px 5px 5px;
+    padding: 5px 3px 5px 15px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-left: solid 1px #cccccc;
@@ -249,17 +267,32 @@ ul.sitemapTree {
     top: 36px;
 }
 
+.vpZoomValue + #interfaceScaleListContainer {
+    padding-top: 5px;
+    border-top: solid 1px #e2e8f0;
+}
+
 #interfaceScaleListContainer {
-    padding: 7.5px 9px 12px 16px;
-    margin-top: 9px;
-    border-top: solid 1px #bdbcbc;
+    padding: 4px 13px;
     order: 10;
 }
 
 .adaptiveViewOption, .vpPresetOption, .vpScaleOption {
-    padding: 3px 0px 3px 0px;
-    color: #3B3B3B;
+    padding: 5px 0px 5px 0px;
+    /*color: #3B3B3B;*/
     display: flex;
+}
+
+.adaptiveViewOption:hover .adapViewRadioButton {
+    border-color: rgb(148 163 184);
+}
+
+.vpScaleOption:hover .scaleRadioButton {
+    border-color: rgb(148 163 184);
+}
+
+.vpScaleOption[hidden] {
+    display: none !important;
 }
 
 .projectOptionsScaleRow, .projectOptionsAdaptiveViewRow, .projectOptionsHotspotsRow {
@@ -274,7 +307,8 @@ ul.sitemapTree {
 }
 
 .scaleRadioButton, .adapViewRadioButton {
-    border: solid 1px #8c8c8c;
+    border: solid 1px #CBD5E1;
+    box-sizing: border-box;
     display: inline-block;
     position: relative;
     width: 12px;
@@ -296,30 +330,14 @@ ul.sitemapTree {
 }
 
 .selectedRadioButton {
-    border: solid 1px #20aca9;
+    border: solid 4px #2563EB !important;
 }
-
-.selectedRadioButtonFill { 
-    position: relative;
-    display: none;
-    background-color: #20aca9;
-    margin: auto;
-    width: 8px;
-    height: 8px;
-    border-radius: 30px;
-    top: 2px;
-}
-    .mobileMode .selectedRadioButtonFill {
-        width: 12px;
-        height: 12px;
-        border-radius: 48px;
-        top: 4px;
-    }
 
 #searchDiv {
     display: flex;
     margin-right: auto;
     flex: 1;
+    height: 22px;
 }
 
 #searchBox {
@@ -333,6 +351,8 @@ ul.sitemapTree {
     border-bottom: solid 1px #cccccc;
     border-left: none;
     -webkit-appearance: none;
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    color: #718096;
 }
 
 #searchBox:focus {

@@ -151,11 +151,44 @@ $axure.internal(function($ax) {
         });
     });
 
+    var _getCornersForFootnotes = function (id) {
+        var element = document.getElementById(id);
+        var matrix = element ? $ax.public.fn.transformFromElement(element) : [1.0, 0.0, 0.0, 1.0, 0.0, 0.0];
+        var currentMatrix = { m11: matrix[0], m21: matrix[1], m12: matrix[2], m22: matrix[3], tx: matrix[4], ty: matrix[5] };
+        var dimensions = {};
+        var axObj = $ax('#' + id);
+        var viewportLocation = axObj.offsetLocation();
+        dimensions.left = viewportLocation.left;
+        dimensions.top = viewportLocation.top;
+
+        var parentRdo = axObj.getParents(false, ['rdo'])[0];
+        if(parentRdo && parentRdo.length > 0) {
+            var parentRdoLocation = $ax('#' + parentRdo).offsetLocation();
+            dimensions.left = dimensions.left - parentRdoLocation.left;
+            dimensions.top = dimensions.top - parentRdoLocation.top;
+        }
+
+        var size = axObj.size();
+        dimensions.width = size.width;
+        dimensions.height = size.height;
+
+        var halfWidth = dimensions.width * 0.5;
+        var halfHeight = dimensions.height * 0.5;
+        var preTransformTopRight = { x: halfWidth, y: -halfHeight };
+        var preTransformBottomRight = { x: halfWidth, y: halfHeight };
+
+        return {
+            relativeTopRight: $ax.public.fn.matrixMultiply(currentMatrix, preTransformTopRight),
+            relativeBottomRight: $ax.public.fn.matrixMultiply(currentMatrix, preTransformBottomRight),
+            centerPoint: { x: dimensions.left + halfWidth, y: dimensions.top + halfHeight }
+        }
+    }
+
     //adjust annotation location to a element's top right corner
     var _adjustIconLocation = $ax.annotation.adjustIconLocation = function(id, dObj) {
         var ann = document.getElementById(id + "_ann");
         if(ann) {
-            var corners = $ax.public.fn.getCornersFromComponent(id);
+            var corners = _getCornersForFootnotes(id);
             var width = $(ann).width();
             var newTopRight = $ax.public.fn.vectorPlus(corners.relativeTopRight, corners.centerPoint);
             //note size is 14x8, this is how rp calculated it as well
@@ -168,7 +201,7 @@ $axure.internal(function($ax) {
 
         var ref = document.getElementById(id + "_ref");
         if(ref) {
-            if(!corners) corners = $ax.public.fn.getCornersFromComponent(id);
+            if(!corners) corners = _getCornersForFootnotes(id);
             var newBottomRight = $ax.public.fn.vectorPlus(corners.relativeBottomRight, corners.centerPoint);
 
             ref.style.left = (newBottomRight.x - 8) + 'px';

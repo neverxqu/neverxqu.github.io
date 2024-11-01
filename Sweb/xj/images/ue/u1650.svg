@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="363px" height="131px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="7777" y1="2168.28571428571" x2="7982.82608695652" y2="2168.28571428571" id="LinearGradient684">
-      <stop id="Stop685" stop-color="#d7d7d7" stop-opacity="0" offset="0" />
-      <stop id="Stop686" stop-color="#d7d7d7" stop-opacity="0.988235294117647" offset="1" />
+    <linearGradient gradientUnits="userSpaceOnUse" x1="0" y1="66.28571428571425" x2="205.82608695652195" y2="66.28571428571414" id="LinearGradient271">
+      <stop id="Stop272" stop-color="#d7d7d7" stop-opacity="0" offset="0" />
+      <stop id="Stop273" stop-color="#d7d7d7" stop-opacity="0.9882352941176471" offset="1" />
     </linearGradient>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="Clip274">
+      <path d="M 0 116  L 0 15  C 0 6.599999999999999  6.6 0  15 0  L 348 0  C 356.4 0  363 6.599999999999999  363 15  L 363 116  C 363 124.4  356.4 131  348 131  L 15 131  C 6.6 131  0 124.4  0 116  Z " fill-rule="evenodd" />
+    </mask>
   </defs>
   <g transform="matrix(1 0 0 1 -7777 -2102 )">
-    <path d="M 7777 2117  A 15 15 0 0 1 7792 2102 L 8125 2102  A 15 15 0 0 1 8140 2117 L 8140 2218  A 15 15 0 0 1 8125 2233 L 7792 2233  A 15 15 0 0 1 7777 2218 L 7777 2117  Z " fill-rule="nonzero" fill="url(#LinearGradient684)" stroke="none" />
+    <path d="M 0 116  L 0 15  C 0 6.599999999999999  6.6 0  15 0  L 348 0  C 356.4 0  363 6.599999999999999  363 15  L 363 116  C 363 124.4  356.4 131  348 131  L 15 131  C 6.6 131  0 124.4  0 116  Z " fill-rule="nonzero" fill="url(#LinearGradient271)" stroke="none" transform="matrix(1 0 0 1 7777 2102 )" class="fill" />
+    <path d="M 0 116  L 0 15  C 0 6.599999999999999  6.6 0  15 0  L 348 0  C 356.4 0  363 6.599999999999999  363 15  L 363 116  C 363 124.4  356.4 131  348 131  L 15 131  C 6.6 131  0 124.4  0 116  Z " stroke-width="0" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 7777 2102 )" class="stroke" mask="url(#Clip274)" />
   </g>
 </svg>

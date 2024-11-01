@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="394px" height="132px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient cx="11.964071856289" cy="65.1856287425176" r="505.589545229107" gradientTransform="matrix(0 -1 0.541286076398048 0 -23.3200013632882 77.1497005988065 )" gradientUnits="userSpaceOnUse" id="RadialGradient698">
-      <stop id="Stop699" stop-color="#ffffff" stop-opacity="0" offset="0" />
-      <stop id="Stop700" stop-color="#000000" stop-opacity="0.4" offset="1" />
+    <radialGradient cx="11.964071856288957" cy="65.1856287425176" r="505.5895452291071" gradientTransform="matrix(0 -1 0.5412860763980478 0 -23.320001363288206 77.14970059880655 )" gradientUnits="userSpaceOnUse" id="RadialGradient290">
+      <stop id="Stop291" stop-color="#ffffff" stop-opacity="0" offset="0" />
+      <stop id="Stop292" stop-color="#000000" stop-opacity="0.4" offset="1" />
     </radialGradient>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="Clip293">
+      <path d="M 314 131.4285714285711  L 1 132  L 1 0  L 379 0  C 387.39999999999964 0  394 6.599999999999909  394 15  L 394 65  L 314 65  L 314 131.4285714285711  Z " fill-rule="evenodd" />
+    </mask>
   </defs>
   <g transform="matrix(1 0 0 1 -1451 -806 )">
-    <path d="M 314 131.428571428571  L 1 132  L 1 0  L 379 0  C 387.4 0  394 6.59999999999991  394 15  L 394 65  L 314 65  L 314 131.428571428571  Z " fill-rule="nonzero" fill="url(#RadialGradient698)" stroke="none" transform="matrix(1 0 0 1 1451 806 )" />
+    <path d="M 314 131.4285714285711  L 1 132  L 1 0  L 379 0  C 387.39999999999964 0  394 6.599999999999909  394 15  L 394 65  L 314 65  L 314 131.4285714285711  Z " fill-rule="nonzero" fill="url(#RadialGradient290)" stroke="none" transform="matrix(1 0 0 1 1451 806 )" class="fill" />
+    <path d="M 314 131.4285714285711  L 1 132  L 1 0  L 379 0  C 387.39999999999964 0  394 6.599999999999909  394 15  L 394 65  L 314 65  L 314 131.4285714285711  Z " stroke-width="0" stroke-dasharray="0" stroke="rgba(149, 242, 4, 1)" fill="none" transform="matrix(1 0 0 1 1451 806 )" class="stroke" mask="url(#Clip293)" />
   </g>
 </svg>

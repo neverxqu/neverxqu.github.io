@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="Clip294">
+      <path d="M 0 25  C 0 10.999999999999998  10.999999999999998 0  25 0  C 39 0  50 10.999999999999998  50 25  C 50 39  39 50  25 50  C 10.999999999999998 50  0 39  0 25  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
   <g transform="matrix(1 0 0 1 -164 -106 )">
-    <path d="M 189 106  C 203 106  214 117  214 131  C 214 145  203 156  189 156  C 175 156  164 145  164 131  C 164 117  175 106  189 106  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" />
-    <path d="M 189 106.5  C 202.72 106.5  213.5 117.28  213.5 131  C 213.5 144.72  202.72 155.5  189 155.5  C 175.28 155.5  164.5 144.72  164.5 131  C 164.5 117.28  175.28 106.5  189 106.5  Z " stroke-width="1" stroke="#797979" fill="none" />
+    <path d="M 0 25  C 0 10.999999999999998  10.999999999999998 0  25 0  C 39 0  50 10.999999999999998  50 25  C 50 39  39 50  25 50  C 10.999999999999998 50  0 39  0 25  Z " fill-rule="nonzero" fill="rgba(255, 255, 255, 1)" stroke="none" transform="matrix(1 0 0 1 164 106 )" class="fill" />
+    <path d="M 0 25  C 0 10.999999999999998  10.999999999999998 0  25 0  C 39 0  50 10.999999999999998  50 25  C 50 39  39 50  25 50  C 10.999999999999998 50  0 39  0 25  Z " stroke-width="2" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 164 106 )" class="stroke" mask="url(#Clip294)" />
   </g>
 </svg>

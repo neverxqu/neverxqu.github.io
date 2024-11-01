@@ -105,4 +105,4 @@
 }
 .flow_shape {
 }
-textarea, select, input, button { outline: none; }
+textarea, select, input, button, div, svg { outline: none; }

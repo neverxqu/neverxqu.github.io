@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="113px" height="115px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient cx="1754.21200889548" cy="4050.15332877468" r="103.98947525925" gradientTransform="matrix(1.34730658527035E-13 1 -0.989996730957828 1.3338291150156E-13 5763.85056426014 2295.94131987866 )" gradientUnits="userSpaceOnUse" id="RadialGradient661">
-      <stop id="Stop662" stop-color="#333333" offset="0" />
-      <stop id="Stop663" stop-color="#000000" stop-opacity="0" offset="1" />
+    <radialGradient cx="57.21200889547781" cy="58.153328774675124" r="103.98947525924996" gradientTransform="matrix(2.5512090844099996E-14 1 -0.989996730957831 2.5256886535558208E-14 114.7836142767207 0.9413198791958457 )" gradientUnits="userSpaceOnUse" id="RadialGradient243">
+      <stop id="Stop244" stop-color="#333333" offset="0" />
+      <stop id="Stop245" stop-color="#000000" stop-opacity="0" offset="1" />
     </radialGradient>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="Clip246">
+      <path d="M 0 115  L 0 0  L 113 0  L 113 115  L 0 115  Z " fill-rule="evenodd" />
+    </mask>
   </defs>
   <g transform="matrix(1 0 0 1 -1697 -3992 )">
-    <path d="M 1697 3992  L 1810 3992  L 1810 4107  L 1697 4107  L 1697 3992  Z " fill-rule="nonzero" fill="url(#RadialGradient661)" stroke="none" />
+    <path d="M 0 115  L 0 0  L 113 0  L 113 115  L 0 115  Z " fill-rule="nonzero" fill="url(#RadialGradient243)" stroke="none" transform="matrix(1 0 0 1 1697 3992 )" class="fill" />
+    <path d="M 0 115  L 0 0  L 113 0  L 113 115  L 0 115  Z " stroke-width="0" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 1697 3992 )" class="stroke" mask="url(#Clip246)" />
   </g>
 </svg>
