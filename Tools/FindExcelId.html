@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>快速查询 Excel 工具</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+  <style>
+    :root {
+      --primary-color: #2563eb;
+      --primary-hover: #1d4ed8;
+      --background: #f8fafc;
+      --card-bg: #ffffff;
+      --text-primary: #1e293b;
+      --text-secondary: #64748b;
+      --border-color: #e2e8f0;
+      --success: #22c55e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--background);
+      color: var(--text-primary);
+      line-height: 1.5;
+      min-width: 1400px;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: white;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-content {
+      max-width: 1400px;
+      margin: 0 auto;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 1400px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid var(--border-color);
+    }
+
+    .form-row {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .form-group {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .form-group-full {
+      width: 100%;
+      margin-bottom: 1.25rem;
+    }
+
+    .form-group-2x {
+      flex: 2;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+
+    input, select {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: all 0.2s;
+      color: var(--text-primary);
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      border-color: var(--primary-color);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+
+    .file-upload-section {
+      margin-bottom: 2rem !important;
+    }
+
+    .file-input-container {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .file-input-wrapper {
+      flex: 1;
+    }
+
+    .file-upload-box {
+      position: relative;
+      height: 160px;
+      border: 2px dashed var(--border-color);
+      border-radius: 12px;
+      background: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+      overflow: hidden;
+    }
+
+    .file-upload-box:hover {
+      border-color: var(--primary-color);
+      background: #f0f9ff;
+    }
+
+    .file-upload-box input[type="file"] {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .upload-icon {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    .upload-text {
+      text-align: center;
+    }
+
+    .upload-text .primary-text {
+      display: block;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .upload-text .secondary-text {
+      display: block;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    .folder-select-btn {
+      width: 160px;
+    }
+
+    .folder-select-btn button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      height: 160px;
+      background: var(--success);
+      border-radius: 12px;
+      font-size: 1rem;
+      flex-direction: column;
+      padding: 1rem;
+    }
+
+    .folder-select-btn button:hover {
+      background: #16a34a;
+    }
+
+    .folder-select-btn svg {
+      width: 32px;
+      height: 32px;
+      margin-bottom: 0.5rem;
+    }
+
+    input[type="number"] {
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+      padding: 0.75rem;
+      background: var(--primary-color);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    button:hover {
+      background: var(--primary-hover);
+      transform: translateY(-1px);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    .note {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      margin-top: 0.5rem;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      border-radius: 12px;
+      background: white;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.9375rem;
+    }
+
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    th {
+      background: #f8fafc;
+      font-weight: 600;
+      color: var(--text-primary);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      cursor: col-resize;
+      user-select: none;
+      border-bottom: 2px solid var(--border-color);
+    }
+
+    th:hover {
+      background: #f1f5f9;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background: #f8fafc;
+    }
+
+    .loading {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .loading.active {
+      display: flex;
+    }
+
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid var(--primary-color);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    .field-selector {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      padding: 1rem;
+      background: #f8fafc;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      border: 1px solid var(--border-color);
+    }
+
+    .field-selector-title {
+      width: 100%;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .field-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: white;
+      padding: 0.5rem;
+      border-radius: 4px;
+      border: 1px solid var(--border-color);
+    }
+
+    .field-item:hover {
+      border-color: var(--primary-color);
+    }
+
+    .field-item input[type="checkbox"] {
+      width: auto;
+      margin: 0;
+    }
+
+    .field-item label {
+      margin: 0;
+      cursor: pointer;
+      font-weight: normal;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @media print {
+      body {
+        min-width: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">快速查询 Excel 工具</div>
+  </header>
+  
+  <main>
+    <div class="card">
+      <div class="form-group-full file-upload-section">
+        <label>Excel 文件选择</label>
+        <div class="file-input-container">
+          <div class="file-input-wrapper">
+            <div class="file-upload-box">
+              <input type="file" id="fileInput" multiple accept=".xlsx,.xls,.csv">
+              <div class="upload-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="17 8 12 3 7 8"/>
+                  <line x1="12" y1="3" x2="12" y2="15"/>
+                </svg>
+              </div>
+              <div class="upload-text">
+                <span class="primary-text">点击或拖拽文件到此处</span>
+                <span class="secondary-text">支持 .xlsx、.xls、.csv 格式</span>
+              </div>
+            </div>
+          </div>
+          <div class="folder-select-btn">
+            <button id="selectFolderBtn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+              </svg>
+              选择文件夹
+            </button>
+          </div>
+        </div>
+        <div class="note">文件在本地浏览器解析，不会上传到服务器</div>
+      </div>
+
+      <!-- 隐藏的文件夹选择器 -->
+      <input type="file" id="folderInput" webkitdirectory directory multiple style="display: none;">
+
+      <div class="form-row">
+        <div class="form-group form-group-2x">
+          <label>搜索文件：</label>
+          <input type="text" id="fileSearch" placeholder="输入关键字模糊搜索文件">
+        </div>
+
+        <div class="form-group form-group-2x">
+          <label>选择文件：</label>
+          <select id="fileList"></select>
+        </div>
+
+        <div class="form-group">
+          <label>表头行数：</label>
+          <input type="number" id="headerRows" value="1" min="1">
+        </div>
+
+        <div class="form-group">
+          <label>表头字段所在行：</label>
+          <input type="number" id="headerRowIndex" value="1" min="1">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>选择 Key 字段：</label>
+          <select id="keyField"></select>
+        </div>
+
+        <div class="form-group form-group-2x">
+          <label>输入 Key 值：</label>
+          <input type="text" id="keyValue" placeholder="请输入要查询的 Key 值">
+        </div>
+
+        <div class="form-group">
+          <label>&nbsp;</label>
+          <button id="searchBtn">查询</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="loading">
+      <div class="loading-spinner"></div>
+    </div>
+
+    <div id="fieldSelector" class="field-selector" style="display: none;">
+      <div class="field-selector-title">选择要显示的字段：</div>
+    </div>
+
+    <div class="card table-container">
+      <table id="resultTable"></table>
+    </div>
+  </main>
+
+  <script>
+    let files = [];
+    let keyFieldSelect = document.getElementById("keyField");
+    let fileInput = document.getElementById("fileInput");
+    let resultTable = document.getElementById("resultTable");
+    let fileSearch = document.getElementById("fileSearch");
+    let fileList = document.getElementById("fileList");
+    let loading = document.querySelector(".loading");
+    const headerRowIndexInput = document.getElementById("headerRowIndex");
+
+    function debounce(fn, delay) {
+      let t = null;
+      return function(...args) {
+        clearTimeout(t);
+        t = setTimeout(() => fn.apply(this, args), delay);
+      };
+    }
+
+    function showLoading() {
+      loading.classList.add("active");
+    }
+
+    function hideLoading() {
+      loading.classList.remove("active");
+    }
+
+    // 文件夹选择按钮处理
+    document.getElementById('selectFolderBtn').addEventListener('click', function() {
+      document.getElementById('folderInput').click();
+    });
+
+    // 文件和文件夹选择处理
+    function handleFiles(e) {
+      const newFiles = Array.from(e.target.files).filter(file => 
+        file.name.toLowerCase().endsWith('.xlsx') || 
+        file.name.toLowerCase().endsWith('.xls') || 
+        file.name.toLowerCase().endsWith('.csv')
+      );
+
+      if (newFiles.length === 0) {
+        alert('没有找到Excel文件！');
+        return;
+      }
+
+      files = [...files, ...newFiles];
+      updateFileList(files);
+      alert("已添加 " + newFiles.length + " 个Excel文件");
+    }
+
+    // 监听文件选择
+    fileInput.addEventListener("change", handleFiles);
+
+    // 监听文件夹选择
+    document.getElementById('folderInput').addEventListener("change", handleFiles);
+
+    fileSearch.addEventListener("input", () => {
+      let keyword = fileSearch.value.toLowerCase();
+      let filtered = files.filter(f => f.name.toLowerCase().includes(keyword));
+      updateFileList(filtered);
+    });
+
+    fileList.addEventListener("change", () => {
+      loadHeadersForSelectedFile();
+    });
+
+    headerRowIndexInput.addEventListener('input', debounce(() => {
+      loadHeadersForSelectedFile();
+    }, 250));
+    headerRowIndexInput.addEventListener('change', () => {
+      loadHeadersForSelectedFile();
+    });
+
+    function updateFileList(fileArray) {
+      fileList.innerHTML = "";
+      fileArray.forEach(f => {
+        let option = document.createElement("option");
+        option.value = f.name;
+        option.textContent = f.name;
+        fileList.appendChild(option);
+      });
+      if (fileArray.length > 0) {
+        if (!fileList.value) fileList.selectedIndex = 0;
+        loadHeadersForSelectedFile();
+      } else {
+        keyFieldSelect.innerHTML = '<option value="">（无匹配文件）</option>';
+      }
+    }
+
+    // 存储当前显示的字段配置
+    let visibleFields = new Set();
+
+    function loadHeadersForSelectedFile() {
+      let selectedFileName = fileList.value;
+      let selectedFile = files.find(f => f.name === selectedFileName);
+      let headerRowIndex = parseInt(document.getElementById("headerRowIndex").value, 10);
+      if (isNaN(headerRowIndex) || headerRowIndex < 1) {
+        keyFieldSelect.innerHTML = '<option value="">（请输入有效的表头行号，示例：2）</option>';
+        return;
+      }
+      headerRowIndex = headerRowIndex - 1;
+      if (!selectedFile) return;
+
+      showLoading();
+      let reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          let data = new Uint8Array(e.target.result);
+          let workbook = XLSX.read(data, {type: 'array'});
+          let firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+          let json = XLSX.utils.sheet_to_json(firstSheet, {header: 1});
+
+          if (json.length <= headerRowIndex) {
+            keyFieldSelect.innerHTML = '<option value="">（表头行超出范围，表格行数：' + json.length + '）</option>';
+            return;
+          }
+
+          let headers = json[headerRowIndex] || [];
+          const prevSelected = keyFieldSelect.value;
+          keyFieldSelect.innerHTML = "";
+          let foundAny = false;
+          headers.forEach(h => {
+            if (h !== undefined && h !== null && String(h).trim() !== '') {
+              foundAny = true;
+              let option = document.createElement("option");
+              option.value = String(h);
+              option.textContent = String(h);
+              keyFieldSelect.appendChild(option);
+            }
+          });
+          if (!foundAny) {
+            keyFieldSelect.innerHTML = '<option value="">（该行没有可用字段）</option>';
+          } else if (prevSelected) {
+            const hasPrev = Array.from(keyFieldSelect.options).some(o => o.value === prevSelected);
+            if (hasPrev) keyFieldSelect.value = prevSelected;
+          }
+        } catch (err) {
+          console.warn('读取表头失败', err);
+          keyFieldSelect.innerHTML = '<option value="">（读取失败）</option>';
+        } finally {
+          hideLoading();
+        }
+      };
+      reader.readAsArrayBuffer(selectedFile);
+    }
+
+    document.getElementById("searchBtn").addEventListener("click", () => {
+      let keyField = keyFieldSelect.value;
+      let keyValue = document.getElementById("keyValue").value.trim();
+      let headerRowIndex = parseInt(document.getElementById("headerRowIndex").value, 10) - 1;
+      let selectedFileName = fileList.value;
+      let selectedFile = files.find(f => f.name === selectedFileName);
+
+      if (!selectedFile) {
+        alert("请先选择一个文件");
+        return;
+      }
+      if (!keyField || !keyValue) {
+        alert("请先选择 Key 字段并输入 Key 值");
+        return;
+      }
+
+      showLoading();
+      let results = [];
+      let reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          let data = new Uint8Array(e.target.result);
+          let workbook = XLSX.read(data, {type: 'array'});
+          workbook.SheetNames.forEach(sheetName => {
+            let sheet = workbook.Sheets[sheetName];
+            let json = XLSX.utils.sheet_to_json(sheet, {header: 1});
+            if (json.length > headerRowIndex) {
+              let headers = json[headerRowIndex] || [];
+              // 规范化表头字段名称，去除空格并转为字符串
+              headers = headers.map(h => h ? String(h).trim() : '');
+              let keyColIndex = headers.indexOf(String(keyField).trim());
+              if (keyColIndex !== -1) {
+                json.forEach((row, idx) => {
+                  if (idx > headerRowIndex && String(row[keyColIndex]).trim() === String(keyValue).trim()) {
+                    results.push(row);
+                  }
+                });
+                renderTable(headers, results);
+              } else {
+                alert('在所选表中未找到 Key 字段列：' + keyField);
+              }
+            } else {
+              alert('表头行超出表格范围');
+            }
+          });
+        } catch (err) {
+          console.error(err);
+          alert('读取文件失败');
+        } finally {
+          hideLoading();
+        }
+      };
+      reader.readAsArrayBuffer(selectedFile);
+    });
+
+    function renderFieldSelector(headers) {
+      const fieldSelector = document.getElementById('fieldSelector');
+      fieldSelector.innerHTML = '<div class="field-selector-title">选择要显示的字段：</div>';
+
+      // 如果是第一次渲染，将所有字段设置为可见
+      if (visibleFields.size === 0) {
+        headers.forEach(h => visibleFields.add(h));
+      }
+
+      headers.forEach(h => {
+        const fieldItem = document.createElement('div');
+        fieldItem.className = 'field-item';
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.id = 'field_' + h;
+        checkbox.checked = visibleFields.has(h);
+        checkbox.addEventListener('change', () => {
+          if (checkbox.checked) {
+            visibleFields.add(h);
+          } else {
+            visibleFields.delete(h);
+          }
+          renderTable(headers, lastRows);
+        });
+
+        const label = document.createElement('label');
+        label.htmlFor = 'field_' + h;
+        label.textContent = h;
+
+        fieldItem.appendChild(checkbox);
+        fieldItem.appendChild(label);
+        fieldSelector.appendChild(fieldItem);
+      });
+
+      fieldSelector.style.display = 'flex';
+    }
+
+    // 保存最后一次查询的数据，用于重新渲染表格
+    let lastRows = [];
+
+    function renderTable(headers, rows) {
+      lastRows = rows; // 保存查询结果
+      resultTable.innerHTML = "";
+
+      // 过滤出要显示的列
+      const visibleHeaders = headers.filter(h => visibleFields.has(h));
+      const visibleIndices = headers.map((h, i) => visibleFields.has(h) ? i : -1).filter(i => i !== -1);
+
+      let thead = document.createElement("thead");
+      let tr = document.createElement("tr");
+      visibleHeaders.forEach(h => {
+        let th = document.createElement("th");
+        th.textContent = h;
+        makeResizable(th);
+        tr.appendChild(th);
+      });
+      thead.appendChild(tr);
+      resultTable.appendChild(thead);
+
+      let tbody = document.createElement("tbody");
+      rows.forEach(row => {
+        let tr = document.createElement("tr");
+        visibleIndices.forEach(i => {
+          let td = document.createElement("td");
+          td.textContent = row[i] || "";
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+      resultTable.appendChild(tbody);
+
+      if (rows.length === 0) {
+        let tr = document.createElement("tr");
+        let td = document.createElement("td");
+        td.colSpan = visibleHeaders.length || 1;
+        td.style.textAlign = "center";
+        td.style.padding = "2rem";
+        td.textContent = "未找到匹配的数据";
+        tbody.appendChild(tr);
+        tr.appendChild(td);
+      }
+
+      // 显示字段选择器
+      renderFieldSelector(headers);
+    }
+
+    function makeResizable(th) {
+      let startX, startWidth;
+      th.addEventListener("mousedown", function(e) {
+        startX = e.pageX;
+        startWidth = th.offsetWidth;
+        document.addEventListener("mousemove", resize);
+        document.addEventListener("mouseup", stopResize);
+      });
+      function resize(e) {
+        th.style.width = (startWidth + e.pageX - startX) + "px";
+      }
+      function stopResize() {
+        document.removeEventListener("mousemove", resize);
+        document.removeEventListener("mouseup", stopResize);
+      }
+    }
+  </script>
+</body>
+</html>
