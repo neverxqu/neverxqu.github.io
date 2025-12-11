@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高级文本格式化工具 - 实时版</title>
+    <style>
+        /* --- 基础变量与重置 (大气简约风格) --- */
+        :root {
+            --primary: #3366ff;       
+            --primary-hover: #1f50e0;
+            --bg-body: #f7f9fc;       
+            --bg-card: #ffffff;
+            --text-main: #2c3e50;     
+            --text-sub: #7f8c8d;
+            --border: #e9ecef;        
+            --input-bg: #fdfefe;
+            --radius: 8px;            
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+            --height-textarea: 65vh;  
+            --active-bg: #e6f0ff; /* 高亮按钮背景 */
+            --active-border: #a0c3ff; /* 高亮按钮边框 */
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            margin: 0;
+            min-height: 100vh;
+            display: flex; justify-content: center; align-items: center; padding: 30px;
+        }
+
+        /* --- 左右布局容器 --- */
+        .container {
+            width: 90%;
+            max-width: 1400px;
+            height: 90vh; 
+            display: flex;
+            gap: 25px;
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 30px;
+        }
+
+        /* --- 左右分栏样式 --- */
+        .panel {
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .header h1 { 
+            font-size: 1.5rem; 
+            margin: 0; 
+            font-weight: 400; 
+            text-align: left; 
+            border-bottom: 1px solid var(--border); 
+            padding-bottom: 15px; 
+            margin-bottom: 15px;
+            color: var(--text-main);
+        }
+        
+        /* --- 编辑器通用样式 --- */
+        .editor-box { position: relative; display: flex; flex-direction: column; flex-grow: 1; }
+        .label-text {
+            font-size: 0.8rem; font-weight: 500; color: var(--text-sub); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px;
+        }
+        
+        /* 输入框与预览框的共有样式 */
+        .common-textarea-style {
+            width: 100%; flex-grow: 1; height: var(--height-textarea);
+            padding: 20px;
+            border: 1px solid var(--border); background-color: var(--input-bg);
+            border-radius: var(--radius);
+            font-family: 'Consolas', 'Monaco', monospace; 
+            font-size: 14px; line-height: 1.8; 
+            color: var(--text-main); resize: none; overflow: auto; white-space: pre-wrap;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        textarea.common-textarea-style:focus {
+            outline: none; background-color: #fff; border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(51, 102, 255, 0.1);
+        }
+
+        /* --- 输出区域特殊处理 --- */
+        .output-container { position: relative; flex-grow: 1; }
+        #outputText, #outputPreview {
+            position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
+            margin: 0; 
+        }
+        #outputPreview { display: none; background-color: #fff; border-color: transparent; }
+        .output-container.preview-mode #outputPreview { display: block; }
+        .output-container.preview-mode #outputText { visibility: hidden; }
+
+        /* --- 顶部工具栏 (颜色/色号/转换) --- */
+        .top-toolbar {
+            display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--border); margin-bottom: 15px;
+        }
+        .top-toolbar .separator {
+            width: 1px; height: 24px; background-color: var(--border); margin: 0 5px;
+        }
+        .top-toolbar .flex-spacer {
+            flex-grow: 1; 
+        }
+
+
+        /* --- 按钮通用样式 --- */
+        .btn {
+            cursor: pointer; transition: all 0.2s; font-size: 0.85rem; font-weight: 500; border-radius: 6px; padding: 8px 15px;
+            display: flex; align-items: center; gap: 5px; white-space: nowrap;
+        }
+        .btn-default { 
+            background: #f1f3f5; 
+            border: 1px solid var(--border); 
+            color: var(--text-main); 
+        }
+        .btn-default:hover:not([disabled]) { 
+            background-color: #e9ecef; 
+            color: var(--primary);
+        }
+        /* --- 激活的高亮样式 --- */
+        .btn-active {
+            background-color: var(--active-bg);
+            border: 1px solid var(--active-border);
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .btn-primary { 
+            background-color: var(--primary); 
+            border: 1px solid var(--primary); 
+            color: #fff; 
+        }
+        .btn-primary:hover:not([disabled]) { 
+            background-color: var(--primary-hover); 
+        }
+        .btn-disabled { opacity: 0.5; cursor: not-allowed !important; }
+
+        /* --- 颜色选择输入组 --- */
+        .color-group {
+            display: flex; align-items: center; gap: 5px;
+        }
+        .color-group input[type="text"] {
+            width: 75px; padding: 7px 8px; border: 1px solid var(--border); border-radius: 4px; font-family: monospace; font-size: 0.85rem;
+        }
+        .color-group input[type="color"] {
+            width: 30px; height: 30px; padding: 0; border: none; background: none; cursor: pointer; border-radius: 4px; overflow: hidden;
+        }
+
+        /* --- Modal 颜色选择器确认框 --- */
+        #colorConfirmModal {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 1000;
+            display: none; justify-content: center; align-items: center;
+        }
+        #colorConfirmModal.show { display: flex; }
+        .modal-content {
+            background: var(--bg-card); padding: 30px; border-radius: var(--radius); box-shadow: var(--shadow);
+            display: flex; flex-direction: column; gap: 20px; min-width: 300px;
+        }
+        .modal-actions { display: flex; justify-content: flex-end; gap: 10px; }
+
+
+        /* --- Toast --- */
+        #toast { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%) translateY(20px); background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-size: 0.9rem; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 10;}
+        #toast.show { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+
+        /* 响应式调整 */
+        @media (max-width: 1024px) {
+            .container {
+                flex-direction: column;
+                height: auto;
+                width: 95%;
+            }
+            .top-toolbar {
+                flex-wrap: wrap;
+                padding-bottom: 10px;
+            }
+            .common-textarea-style {
+                height: 35vh; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="panel input-panel">
+        <div class="header">
+            <h1>输入面板 (Input)</h1>
+        </div>
+
+        <div class="editor-box">
+            <div class="top-toolbar">
+                <div class="color-group">
+                    <button id="btnColor" class="btn btn-default btn-disabled" disabled onclick="showColorModal()">
+                        🎨 颜色标签
+                    </button>
+                </div>
+                
+                <div class="separator"></div>
+
+                <button class="btn btn-default" onclick="insertNewline()">
+                    ↩️ 插入 \n
+                </button>
+
+                <div class="separator"></div>
+                
+                <button id="btnToLiteral" class="btn btn-default" onclick="setModeAndConvert('toLiteral')"><span>⬇️</span> 换行转 \n</button>
+                <button id="btnToReal" class="btn btn-default" onclick="setModeAndConvert('toReal')"><span>⬆️</span> \n 转换行</button>
+            </div>
+            
+            <textarea id="inputText" class="common-textarea-style" placeholder="在此输入文本。选中部分文字后，点击“颜色标签”按钮。"></textarea>
+        </div>
+        
+        <div class="footer-toolbar">
+            <div style="display: flex; gap: 10px;">
+                <button class="btn btn-default" onclick="loadExample()">📄 加载样例</button>
+                <button class="btn btn-default" onclick="clearAll()">🗑️ 清空所有</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="panel output-panel">
+        <div class="header">
+            <h1>结果预览 (Result)</h1>
+        </div>
+        
+        <div class="editor-box">
+             <div class="top-toolbar" style="border-bottom: none;">
+                <div class="flex-spacer"></div>
+                <button id="btnToggleView" class="btn btn-default" onclick="toggleView()">
+                    👁️ 预览效果
+                </button>
+                <button class="btn btn-primary" onclick="copyResult()">📋 复制结果代码</button>
+            </div>
+
+            <div class="output-container" id="outputContainer">
+                <textarea id="outputText" class="common-textarea-style" readonly placeholder="转换结果代码显示在这里..."></textarea>
+                <div id="outputPreview" class="common-textarea-style"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="colorConfirmModal">
+    <div class="modal-content">
+        <h3 style="margin: 0; font-size: 1.2rem; font-weight: 500;">选择文本颜色</h3>
+        <div class="color-group" style="align-self: flex-start; margin-top: 5px;">
+            <label for="modalHexInput" style="font-weight: 400; color: var(--text-main);">#</label>
+            <input type="text" id="modalHexInput" maxlength="6" value="773131" placeholder="RRGGBB">
+            <input type="color" id="modalColorPicker" value="#773131">
+        </div>
+        
+        <div class="modal-actions">
+            <button class="btn btn-default" onclick="hideColorModal()">取消</button>
+            <button class="btn btn-primary" onclick="confirmColor()">确认应用</button>
+        </div>
+    </div>
+</div>
+
+<div id="toast">提示消息</div>
+
+<script>
+    const inputEl = document.getElementById('inputText');
+    const outputEl = document.getElementById('outputText');
+    const outputPreviewEl = document.getElementById('outputPreview');
+    const outputContainer = document.getElementById('outputContainer');
+    const btnColor = document.getElementById('btnColor');
+    const btnToLiteral = document.getElementById('btnToLiteral');
+    const btnToReal = document.getElementById('btnToReal');
+    const btnToggleView = document.getElementById('btnToggleView');
+    const modal = document.getElementById('colorConfirmModal');
+    const modalHexInput = document.getElementById('modalHexInput');
+    const modalColorPicker = document.getElementById('modalColorPicker');
+    const toastEl = document.getElementById('toast');
+
+    let isPreviewMode = false;
+    let currentConversionMode = 'toReal'; // 默认模式是：把 \n 转换成实际换行
+
+    // --- 1. 核心转换与高亮逻辑 ---
+
+    /**
+     * 设置转换模式并触发转换
+     * @param {string} mode 'toLiteral' (换行转 \n) or 'toReal' (\n 转换行)
+     */
+    function setModeAndConvert(mode) {
+        currentConversionMode = mode;
+        updateModeHighlight();
+        convert();
+    }
+    
+    /**
+     * 实时转换输入框内容到输出框
+     */
+    function convert() {
+        const raw = inputEl.value;
+        if (!raw && currentConversionMode) { outputEl.value = ''; updatePreview(); return; }
+
+        let result = raw;
+        if (currentConversionMode === 'toLiteral') {
+            // 换行转 \n
+            result = raw.replace(/\r\n/g, '\\n').replace(/\n/g, '\\n');
+        } else if (currentConversionMode === 'toReal') {
+            // \n 转换行
+            result = raw.replace(/\\n/g, '\n');
+        }
+        
+        outputEl.value = result;
+        updatePreview();
+    }
+
+    /**
+     * 更新转换模式按钮的高亮状态
+     */
+    function updateModeHighlight() {
+        // 清除所有高亮
+        btnToLiteral.classList.remove('btn-active');
+        btnToReal.classList.remove('btn-active');
+        btnToLiteral.classList.add('btn-default');
+        btnToReal.classList.add('btn-default');
+
+        // 设置当前模式高亮
+        if (currentConversionMode === 'toLiteral') {
+            btnToLiteral.classList.add('btn-active');
+            btnToLiteral.classList.remove('btn-default');
+        } else if (currentConversionMode === 'toReal') {
+            btnToReal.classList.add('btn-active');
+            btnToReal.classList.remove('btn-default');
+        }
+    }
+
+    // 绑定输入事件实现实时显示
+    inputEl.addEventListener('input', convert);
+
+
+    // --- 2. 预览渲染逻辑 (保持不变) ---
+
+    function updatePreview() {
+        if (!isPreviewMode) return; 
+        const rawCode = outputEl.value;
+        
+        // 1. HTML 转义
+        let safeHTML = rawCode
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+
+        // 2. 将自定义 <color> 标签转换为 HTML span 标签 (匹配被转义后的标签)
+        safeHTML = safeHTML.replace(/&lt;color=(#[0-9a-fA-F]{3,6})&gt;(.*?)&lt;\/color&gt;/gs, function(match, colorHex, content) {
+             const processedContent = content.replace(/\n/g, '<br>'); 
+             return `<span style="color: ${colorHex};">${processedContent}</span>`;
+        });
+        
+        // 3. 处理未被 <color> 标签包裹的换行
+        if (currentConversionMode === 'toReal') {
+             safeHTML = safeHTML.replace(/\n/g, '<br>');
+        }
+
+        outputPreviewEl.innerHTML = safeHTML;
+    }
+
+    // --- 3. 颜色选择与应用逻辑 (略) ---
+    // (逻辑与上一个版本相同，仅保留关键函数签名)
+
+    function checkSelection() {
+        const hasSelection = inputEl.selectionStart !== inputEl.selectionEnd;
+        if (hasSelection) {
+            btnColor.classList.remove('btn-disabled');
+            btnColor.disabled = false;
+        } else {
+            btnColor.classList.add('btn-disabled');
+            btnColor.disabled = true;
+        }
+    }
+    inputEl.addEventListener('mouseup', checkSelection);
+    inputEl.addEventListener('keyup', checkSelection);
+    inputEl.addEventListener('input', checkSelection); // 实时更新按钮状态
+
+    function showColorModal() {
+        if (btnColor.disabled) return;
+        const selectedColor = modalColorPicker.value.toUpperCase();
+        modalHexInput.value = selectedColor.substring(1);
+        modal.classList.add('show');
+    }
+
+    function hideColorModal() {
+        modal.classList.remove('show');
+    }
+
+    modalHexInput.addEventListener('input', function() {
+        let hex = this.value.toUpperCase().replace(/[^0-9A-F]/g, '');
+        if (hex.length >= 3) {
+            modalColorPicker.value = '#' + hex.substring(0, 6);
+        }
+    });
+
+    modalColorPicker.addEventListener('input', function() {
+        modalHexInput.value = this.value.substring(1).toUpperCase();
+    });
+
+    function confirmColor() {
+        const hex = modalColorPicker.value.toUpperCase(); 
+        hideColorModal();
+        applyColorTag(hex);
+    }
+
+    function applyColorTag(hex) {
+        const start = inputEl.selectionStart;
+        const end = inputEl.selectionEnd;
+        if (start === end) return;
+
+        const text = inputEl.value;
+        const selectedText = text.substring(start, end);
+        const before = text.substring(0, start);
+        const after = text.substring(end);
+        
+        const openTag = `<color=${hex}>`; 
+        const closeTag = `</color>`;
+
+        const newText = `${before}${openTag}${selectedText}${closeTag}${after}`;
+        inputEl.value = newText;
+
+        const newCursorPos = end + openTag.length + closeTag.length;
+        inputEl.setSelectionRange(newCursorPos, newCursorPos);
+        inputEl.focus();
+        
+        // 使用 convert() 自动触发实时更新
+        convert();
+        checkSelection(); 
+        showToast('✅ 颜色标签已应用');
+    }
+    
+    // --- 4. 插入 \n 逻辑 (保持不变) ---
+    function insertNewline() {
+        const text = inputEl.value;
+        const cursorPosition = inputEl.selectionStart; 
+
+        const newText = text.substring(0, cursorPosition) + '\\n' + text.substring(cursorPosition);
+        inputEl.value = newText;
+
+        const newCursorPosition = cursorPosition + 2; 
+        inputEl.setSelectionRange(newCursorPosition, newCursorPosition);
+        inputEl.focus();
+        
+        convert(); // 实时更新
+        showToast('↩️ 已插入 \\n 符号');
+    }
+
+    // --- 5. 视图与通用功能 ---
+
+    function toggleView() {
+        isPreviewMode = !isPreviewMode;
+        if (isPreviewMode) {
+            outputContainer.classList.add('preview-mode');
+            btnToggleView.innerHTML = '📝 显示代码';
+            btnToggleView.classList.add('btn-primary');
+            btnToggleView.classList.remove('btn-default');
+            updatePreview(); 
+        } else {
+            outputContainer.classList.remove('preview-mode');
+            btnToggleView.innerHTML = '👁️ 预览效果';
+            btnToggleView.classList.remove('btn-primary');
+            btnToggleView.classList.add('btn-default');
+        }
+    }
+
+    function loadExample() {
+        inputEl.value = "这是第一行文本\n选中我，点击颜色按钮：(彩色文本)\n\n下方是字面量换行符的示例：\n123\\n456\\n789";
+        convert(); // 实时更新
+        showToast('已加载样例');
+    }
+
+    function clearAll() {
+        inputEl.value = '';
+        outputEl.value = '';
+        outputPreviewEl.innerHTML = '';
+        inputEl.focus();
+        checkSelection();
+    }
+
+    function copyResult() {
+        if (!outputEl.value) { showToast('结果为空'); return; }
+        outputEl.select();
+        outputEl.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(outputEl.value).then(() => {
+            showToast('✅ 已复制原始代码 (包含标签)');
+        }).catch(() => {
+            showToast('❌ 复制失败');
+        });
+    }
+
+    let toastTimeout;
+    function showToast(msg) {
+        toastEl.textContent = msg; toastEl.classList.add('show');
+        clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(() => { toastEl.classList.remove('show'); }, 2500);
+    }
+
+    // 初始化：设置默认模式，更新高亮，并执行第一次转换
+    function initialize() {
+        // 默认模式：\n 转换行 (toReal)
+        setModeAndConvert('toReal'); 
+        // 默认视图：显示代码模式
+        toggleView(); 
+        checkSelection();
+    }
+
+    initialize();
+</script>
+
+</body>
+</html>
