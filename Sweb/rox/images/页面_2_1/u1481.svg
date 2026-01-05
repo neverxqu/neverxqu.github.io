@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="89px" height="19px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter789">
+      <feColorMatrix type="matrix" values="0.0960088888888889 0.189591111111111 0.0255111111111111 0 0.344444444444444  0.0960088888888889 0.189591111111111 0.0255111111111111 0 0.344444444444444  0.0960088888888889 0.189591111111111 0.0255111111111111 0 0.344444444444444  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1681 -1248 )">
+    <image preserveAspectRatio="none" style="overflow:visible" width="89" height="19" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAAATCAYAAAD7yKGlAAADnElEQVRYhdVZO67VMBSc42sKFkADG6ChBQk9CSQ6REHJAiiREBSIDQANepT0bIBFQMnrkahoKGioEYoH2bGT409yk/t5D85VFMd2ju3xZHzsKz+fP4YRQbLOEV1H03XuftfxYdfxTud4ret42RGgI5wj/M+bIzLTj2ReyIl0q36rvPIx1JdGTYn1Jc8TlQ7viyqVxrP2IVW97B1J6cHHVwEeWTrACfv8HsR7dHxH4kYaQjV0aSZX2S7vnVc7056QgSgwEdhkZiiJdh3AqXUkJPaCxAuSr0ls/CSnK4CP/A7s1/vDDHyNSYPwrS+g7GX+JYhmsLQZLbnfK9a5NNt8CeKNBzXIQbrYXwPQGqA9aLLt1Vb5sdhfsK+RJwXAJpOGEVqpPHizrqOvf0Lwle9R0t2ODGk3MLqhqFtGICKVLh/T6kmYYqpMTNi0to9w15MRQFdP4wt92jpH/95bkIaIgDoOYPdsVjKhetaCT3f+PAGue1H0Z0YZelGopaG+Yr5oZhdaHcHVZbZzPAF5a1hsA3t7YLsIMJRc8ALUdN626erh/EjG5wLoDPi8tvVhmv78GRnohkWPI4GVbFwYSVda380aQN3/UpPL2qPy9mDmAJtIYFN40prseDu1qCMIcuSsUxJc6myJ9TGxP6Tv7etFKQXI0gNPBdk01AsgYOl4VUNGFUWgSC9d8I5lh4t516wXCjApQU/gmhrgMbxjiJPrDpQZoxZrhv9r1hjJRHxcQrhE10eJSDIhEu9lrJxtUPDDzk5oa7G7QISP1/T09rzU4j5GNpG9ku/yBBnLI/hndrLZKA+7au7cucUSPxf7tYxgUwE9ArwZQRZRcXLT10dbjsZl7sfkkkHvA8zamHpZ/QhWGQJrP1skowfSZECbAPZGaXEJ8nCA9ikweU5h0zj+k2htxmZQnjXJFzfx8G4gYgOb6w0JBoAF/AO4Z77lTC7yY8TGJ75FAo5p1TnGgi379tIEjlFhV33Q00utr2MjwDaAnYd5KQwOAINwTwFz5rXB7srW2fVyTz3exdZxVW9RTLaR0AD7HyVJhGfwJgJ8KbBaazHheoDpT4PwApD3qR1f61fzAL183os162ylOi/LK7LGyMDkkjDcxygi3T3QJrB5vPfAx2eYL4C5K5BTPeH+UOgJgO9z3V4jE7scCi35R2RJO9M5BceZA5wxNVwGFF+WQrVNALrnpAbe/hbYbyLmA0QeCOQmBJ+ztkD8BVLCvBAjLCfbAAAAAElFTkSuQmCC" x="1681px" y="1248px" filter="url(#filter789)" />
+  </g>
+</svg>
