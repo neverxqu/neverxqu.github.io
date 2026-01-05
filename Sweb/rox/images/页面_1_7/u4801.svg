@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="584px" height="12px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter834">
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter1877">
       <feColorMatrix type="matrix" values="0.3086 0.6094 0.082 0 0  0.3086 0.6094 0.082 0 0  0.3086 0.6094 0.082 0 0  0 0 0 1 0  " in="SourceGraphic" />
     </filter>
   </defs>
   <g transform="matrix(1 0 0 1 -317 -2182 )">
-    <image preserveAspectRatio="none" style="overflow:visible" width="584" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfsAAAALCAYAAAB4biR/AAABZ0lEQVR4nO3cPUoDQRiH8WclYKGFN9DKG9hrYaXmDlbBJqawF3vBj0YLwTtEWz8KRRsvYOMZRBFsVBbewBB2sxuNkMDzg7A7mQlMeAP/ZCez2d3VGQWWgC/gqahTkiSNndLsbpTMdDeO69ZSkqSJUJrdUwWzbwNr8WhbX0mSxt7A7O4P+w5wmLTz8+2Cd7gA3ADvwDUw7+dAkqSRqpu1ldndC/tFoAscAFnSn8WLujGmJ1/oXwZmgBXg1PpKkjRSVVlbO7vzP+htAifAdMUMP4Et4Bx4A2aTvldgLml/W29Jkn4tq8jaobK7EeF9D+wDGyWDL4Ad4DnaD8Bq0v/YNz5DkiT9xaCsHSq7e5fx8xBvxnX/9Ff5dzzXTII+1wJugY9YT2hZTkmSRqoqa2tnd//Wu6PYo3cc7U5ynnqJ9QNJkvQ/6mZtZXaX3VTnMo7us5ckaTKUZnfZTXX24luCJEmaDMXZDfwAe35WWc/+dZYAAAAASUVORK5CYII=" x="317px" y="2182px" filter="url(#filter834)" />
+    <image preserveAspectRatio="none" style="overflow:visible" width="584" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfsAAAALCAYAAAB4biR/AAABZ0lEQVR4nO3cPUoDQRiH8WclYKGFN9DKG9hrYaXmDlbBJqawF3vBj0YLwTtEWz8KRRsvYOMZRBFsVBbewBB2sxuNkMDzg7A7mQlMeAP/ZCez2d3VGQWWgC/gqahTkiSNndLsbpTMdDeO69ZSkqSJUJrdUwWzbwNr8WhbX0mSxt7A7O4P+w5wmLTz8+2Cd7gA3ADvwDUw7+dAkqSRqpu1ldndC/tFoAscAFnSn8WLujGmJ1/oXwZmgBXg1PpKkjRSVVlbO7vzP+htAifAdMUMP4Et4Bx4A2aTvldgLml/W29Jkn4tq8jaobK7EeF9D+wDGyWDL4Ad4DnaD8Bq0v/YNz5DkiT9xaCsHSq7e5fx8xBvxnX/9Ff5dzzXTII+1wJugY9YT2hZTkmSRqoqa2tnd//Wu6PYo3cc7U5ynnqJ9QNJkvQ/6mZtZXaX3VTnMo7us5ckaTKUZnfZTXX24luCJEmaDMXZDfwAe35WWc/+dZYAAAAASUVORK5CYII=" x="317px" y="2182px" filter="url(#filter1877)" />
   </g>
 </svg>
