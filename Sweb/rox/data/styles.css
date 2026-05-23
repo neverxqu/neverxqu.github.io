@@ -72,9 +72,20 @@
 }
 .line {
 }
+.checkbox {
+  text-align:left;
+}
+.radio_button {
+  text-align:left;
+}
+.tree_node {
+  text-align:left;
+}
 .table_cell {
 }
 ._连接 {
+}
+.form_disabled {
 }
 ._表单提示 {
   color:#999999;
