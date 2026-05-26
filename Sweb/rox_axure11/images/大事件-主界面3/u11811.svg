@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="Clip378">
+      <path d="M 1534 2314.5  C 1506.5275 2314.5  1484.5 2292.4725  1484.5 2265  L 1484.5 2265  C 1484.5 2237.5275  1506.5275 2215.5  1534 2215.5  L 1534 2215.5  C 1561.4725 2215.5  1583.5 2237.5275  1583.5 2265  L 1583.5 2265  C 1583.5 2292.4725  1561.4725 2314.5  1534 2314.5  L 1534 2314.5  " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1484 -2215 )">
+    <path d="M 1484 2215  L 1584 2215  L 1584 2315  L 1484 2315  L 1484 2215  " fill-rule="nonzero" fill="rgba(204, 204, 204, 1)" stroke="none" class="fill" mask="url(#Clip378)" />
+    <path d="M 1491 2222  L 1577 2222  L 1577 2308  L 1491 2308  L 1491 2222  " fill-rule="nonzero" fill="rgba(255, 255, 255, 1)" stroke="none" class="fill" mask="url(#Clip378)" />
+    <path d="M 1543.5 2245  C 1539.3 2245  1536 2241.7  1536 2237.5  C 1536 2233.3  1539.3 2230  1543.5 2230  C 1547.7 2230  1551 2233.3  1551 2237.5  C 1551 2241.7  1547.7 2245  1543.5 2245  " fill-rule="nonzero" fill="rgba(204, 204, 204, 1)" stroke="none" class="fill" mask="url(#Clip378)" />
+    <path d="M 1494 2306  L 1494 2261.45  L 1514.25 2241.2  L 1542.6 2257.4  L 1558.8 2253.35  L 1575 2257.4  L 1575 2306  L 1494 2306  " fill-rule="nonzero" fill="rgba(22, 155, 213, 1)" stroke="none" class="fill" mask="url(#Clip378)" />
+    <path d="M 1534 2313.5  C 1507.0825 2313.5  1485.5 2291.9175  1485.5 2265  L 1485.5 2265  C 1485.5 2238.0825  1507.0825 2216.5  1534 2216.5  L 1534 2216.5  C 1560.9175 2216.5  1582.5 2238.0825  1582.5 2265  L 1582.5 2265  C 1582.5 2291.9175  1560.9175 2313.5  1534 2313.5  L 1534 2313.5  Z " stroke-width="3" stroke-dasharray="0" stroke="rgba(0, 0, 0, 1)" fill="none" class="stroke" mask="url(#Clip378)" />
+  </g>
+</svg>

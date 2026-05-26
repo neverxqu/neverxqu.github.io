@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1376px" height="886px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient cx="672.4255319148925" cy="391.1808992009258" r="927.3088892300395" gradientTransform="matrix(1.838980069780397E-15 1 -0.9977426636568846 1.834828873234617E-15 1062.7234042553182 -281.2446327139674 )" gradientUnits="userSpaceOnUse" id="RadialGradient368">
+      <stop id="Stop369" stop-color="#e9e9e9" stop-opacity="0" offset="0" />
+      <stop id="Stop370" stop-color="#e6e6e6" stop-opacity="0.996078431372549" offset="0.59" />
+      <stop id="Stop371" stop-color="#e6e6e6" offset="1" />
+    </radialGradient>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="Clip372">
+      <path d="M 0 886  L 0 0  L 1376 0  L 1376 886  L 0 886  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -236 -381 )">
+    <path d="M 0 886  L 0 0  L 1376 0  L 1376 886  L 0 886  Z " fill-rule="nonzero" fill="url(#RadialGradient368)" stroke="none" transform="matrix(1 0 0 1 236 381 )" class="fill" />
+    <path d="M 0 886  L 0 0  L 1376 0  L 1376 886  L 0 886  Z " stroke-width="0" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" transform="matrix(1 0 0 1 236 381 )" class="stroke" mask="url(#Clip372)" />
+  </g>
+</svg>
